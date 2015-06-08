@@ -65,7 +65,7 @@ input {
   top: 0px;
   left: 0px;
   animation: boom-1 800ms infinite;
-  animation-delay: 68ms;
+  animation-delay: 175ms;
 }
 @-moz-keyframes boom-1 {
   0% {
@@ -74,7 +74,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05024, 1.05024) rotate(-2.958deg);
+    transform: scale(1.05024, 1.05024) rotate(-6.902deg);
   }
   50% {
     transform: scale(1, 1);
@@ -87,7 +87,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05024, 1.05024) rotate(-2.958deg);
+    transform: scale(1.05024, 1.05024) rotate(-6.902deg);
   }
   50% {
     transform: scale(1, 1);
@@ -100,7 +100,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05024, 1.05024) rotate(-2.958deg);
+    transform: scale(1.05024, 1.05024) rotate(-6.902deg);
   }
   50% {
     transform: scale(1, 1);
@@ -113,7 +113,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05024, 1.05024) rotate(-2.958deg);
+    transform: scale(1.05024, 1.05024) rotate(-6.902deg);
   }
   50% {
     transform: scale(1, 1);
@@ -133,7 +133,7 @@ input {
   top: -4px;
   left: -4px;
   animation: boom-2 800ms infinite;
-  animation-delay: 14ms;
+  animation-delay: 120ms;
 }
 @-moz-keyframes boom-2 {
   0% {
@@ -142,7 +142,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05096, 1.05096) rotate(0deg);
+    transform: scale(1.05096, 1.05096) rotate(2.916deg);
   }
   50% {
     transform: scale(1, 1);
@@ -155,7 +155,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05096, 1.05096) rotate(0deg);
+    transform: scale(1.05096, 1.05096) rotate(2.916deg);
   }
   50% {
     transform: scale(1, 1);
@@ -168,7 +168,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05096, 1.05096) rotate(0deg);
+    transform: scale(1.05096, 1.05096) rotate(2.916deg);
   }
   50% {
     transform: scale(1, 1);
@@ -181,7 +181,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05096, 1.05096) rotate(0deg);
+    transform: scale(1.05096, 1.05096) rotate(2.916deg);
   }
   50% {
     transform: scale(1, 1);
@@ -201,7 +201,7 @@ input {
   top: -8px;
   left: -8px;
   animation: boom-3 800ms infinite;
-  animation-delay: 103ms;
+  animation-delay: 0ms;
 }
 @-moz-keyframes boom-3 {
   0% {
@@ -210,7 +210,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05216, 1.05216) rotate(1.916deg);
+    transform: scale(1.05216, 1.05216) rotate(3.832deg);
   }
   50% {
     transform: scale(1, 1);
@@ -223,7 +223,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05216, 1.05216) rotate(1.916deg);
+    transform: scale(1.05216, 1.05216) rotate(3.832deg);
   }
   50% {
     transform: scale(1, 1);
@@ -236,7 +236,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05216, 1.05216) rotate(1.916deg);
+    transform: scale(1.05216, 1.05216) rotate(3.832deg);
   }
   50% {
     transform: scale(1, 1);
@@ -249,7 +249,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05216, 1.05216) rotate(1.916deg);
+    transform: scale(1.05216, 1.05216) rotate(3.832deg);
   }
   50% {
     transform: scale(1, 1);
@@ -269,7 +269,7 @@ input {
   top: -12px;
   left: -12px;
   animation: boom-4 800ms infinite;
-  animation-delay: -5ms;
+  animation-delay: 206ms;
 }
 @-moz-keyframes boom-4 {
   0% {
@@ -337,7 +337,7 @@ input {
   top: -16px;
   left: -16px;
   animation: boom-5 800ms infinite;
-  animation-delay: 108ms;
+  animation-delay: 172ms;
 }
 @-moz-keyframes boom-5 {
   0% {
@@ -346,7 +346,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.056, 1.056) rotate(-6.510000000000001deg);
+    transform: scale(1.056, 1.056) rotate(-5.58deg);
   }
   50% {
     transform: scale(1, 1);
@@ -359,7 +359,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.056, 1.056) rotate(-6.510000000000001deg);
+    transform: scale(1.056, 1.056) rotate(-5.58deg);
   }
   50% {
     transform: scale(1, 1);
@@ -372,7 +372,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.056, 1.056) rotate(-6.510000000000001deg);
+    transform: scale(1.056, 1.056) rotate(-5.58deg);
   }
   50% {
     transform: scale(1, 1);
@@ -385,7 +385,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.056, 1.056) rotate(-6.510000000000001deg);
+    transform: scale(1.056, 1.056) rotate(-5.58deg);
   }
   50% {
     transform: scale(1, 1);
@@ -405,7 +405,7 @@ input {
   top: -20px;
   left: -20px;
   animation: boom-6 800ms infinite;
-  animation-delay: -7ms;
+  animation-delay: 11ms;
 }
 @-moz-keyframes boom-6 {
   0% {
@@ -414,7 +414,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05864, 1.05864) rotate(0.916deg);
+    transform: scale(1.05864, 1.05864) rotate(3.664deg);
   }
   50% {
     transform: scale(1, 1);
@@ -427,7 +427,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05864, 1.05864) rotate(0.916deg);
+    transform: scale(1.05864, 1.05864) rotate(3.664deg);
   }
   50% {
     transform: scale(1, 1);
@@ -440,7 +440,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05864, 1.05864) rotate(0.916deg);
+    transform: scale(1.05864, 1.05864) rotate(3.664deg);
   }
   50% {
     transform: scale(1, 1);
@@ -453,7 +453,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.05864, 1.05864) rotate(0.916deg);
+    transform: scale(1.05864, 1.05864) rotate(3.664deg);
   }
   50% {
     transform: scale(1, 1);
@@ -473,7 +473,7 @@ input {
   top: -24px;
   left: -24px;
   animation: boom-7 800ms infinite;
-  animation-delay: 134ms;
+  animation-delay: 2ms;
 }
 @-moz-keyframes boom-7 {
   0% {
@@ -482,7 +482,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.06176, 1.06176) rotate(5.412deg);
+    transform: scale(1.06176, 1.06176) rotate(4.51deg);
   }
   50% {
     transform: scale(1, 1);
@@ -495,7 +495,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.06176, 1.06176) rotate(5.412deg);
+    transform: scale(1.06176, 1.06176) rotate(4.51deg);
   }
   50% {
     transform: scale(1, 1);
@@ -508,7 +508,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.06176, 1.06176) rotate(5.412deg);
+    transform: scale(1.06176, 1.06176) rotate(4.51deg);
   }
   50% {
     transform: scale(1, 1);
@@ -521,7 +521,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.06176, 1.06176) rotate(5.412deg);
+    transform: scale(1.06176, 1.06176) rotate(4.51deg);
   }
   50% {
     transform: scale(1, 1);
@@ -541,7 +541,7 @@ input {
   top: -28px;
   left: -28px;
   animation: boom-8 800ms infinite;
-  animation-delay: -14ms;
+  animation-delay: -46ms;
 }
 @-moz-keyframes boom-8 {
   0% {
@@ -550,7 +550,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.06536, 1.06536) rotate(5.328deg);
+    transform: scale(1.06536, 1.06536) rotate(-3.552deg);
   }
   50% {
     transform: scale(1, 1);
@@ -563,7 +563,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.06536, 1.06536) rotate(5.328deg);
+    transform: scale(1.06536, 1.06536) rotate(-3.552deg);
   }
   50% {
     transform: scale(1, 1);
@@ -576,7 +576,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.06536, 1.06536) rotate(5.328deg);
+    transform: scale(1.06536, 1.06536) rotate(-3.552deg);
   }
   50% {
     transform: scale(1, 1);
@@ -589,7 +589,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.06536, 1.06536) rotate(5.328deg);
+    transform: scale(1.06536, 1.06536) rotate(-3.552deg);
   }
   50% {
     transform: scale(1, 1);
@@ -609,7 +609,7 @@ input {
   top: -32px;
   left: -32px;
   animation: boom-9 800ms infinite;
-  animation-delay: 125ms;
+  animation-delay: 62ms;
 }
 @-moz-keyframes boom-9 {
   0% {
@@ -618,7 +618,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.06944, 1.06944) rotate(5.244deg);
+    transform: scale(1.06944, 1.06944) rotate(1.748deg);
   }
   50% {
     transform: scale(1, 1);
@@ -631,7 +631,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.06944, 1.06944) rotate(5.244deg);
+    transform: scale(1.06944, 1.06944) rotate(1.748deg);
   }
   50% {
     transform: scale(1, 1);
@@ -644,7 +644,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.06944, 1.06944) rotate(5.244deg);
+    transform: scale(1.06944, 1.06944) rotate(1.748deg);
   }
   50% {
     transform: scale(1, 1);
@@ -657,7 +657,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.06944, 1.06944) rotate(5.244deg);
+    transform: scale(1.06944, 1.06944) rotate(1.748deg);
   }
   50% {
     transform: scale(1, 1);
@@ -677,7 +677,7 @@ input {
   top: -36px;
   left: -36px;
   animation: boom-10 800ms infinite;
-  animation-delay: 62ms;
+  animation-delay: 35ms;
 }
 @-moz-keyframes boom-10 {
   0% {
@@ -686,7 +686,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.074, 1.074) rotate(-3.44deg);
+    transform: scale(1.074, 1.074) rotate(-5.16deg);
   }
   50% {
     transform: scale(1, 1);
@@ -699,7 +699,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.074, 1.074) rotate(-3.44deg);
+    transform: scale(1.074, 1.074) rotate(-5.16deg);
   }
   50% {
     transform: scale(1, 1);
@@ -712,7 +712,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.074, 1.074) rotate(-3.44deg);
+    transform: scale(1.074, 1.074) rotate(-5.16deg);
   }
   50% {
     transform: scale(1, 1);
@@ -725,7 +725,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.074, 1.074) rotate(-3.44deg);
+    transform: scale(1.074, 1.074) rotate(-5.16deg);
   }
   50% {
     transform: scale(1, 1);
@@ -745,7 +745,7 @@ input {
   top: -40px;
   left: -40px;
   animation: boom-11 800ms infinite;
-  animation-delay: 126ms;
+  animation-delay: 74ms;
 }
 @-moz-keyframes boom-11 {
   0% {
@@ -754,7 +754,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.07904, 1.07904) rotate(1.692deg);
+    transform: scale(1.07904, 1.07904) rotate(-2.538deg);
   }
   50% {
     transform: scale(1, 1);
@@ -767,7 +767,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.07904, 1.07904) rotate(1.692deg);
+    transform: scale(1.07904, 1.07904) rotate(-2.538deg);
   }
   50% {
     transform: scale(1, 1);
@@ -780,7 +780,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.07904, 1.07904) rotate(1.692deg);
+    transform: scale(1.07904, 1.07904) rotate(-2.538deg);
   }
   50% {
     transform: scale(1, 1);
@@ -793,7 +793,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.07904, 1.07904) rotate(1.692deg);
+    transform: scale(1.07904, 1.07904) rotate(-2.538deg);
   }
   50% {
     transform: scale(1, 1);
@@ -813,7 +813,7 @@ input {
   top: -44px;
   left: -44px;
   animation: boom-12 800ms infinite;
-  animation-delay: 15ms;
+  animation-delay: -88ms;
 }
 @-moz-keyframes boom-12 {
   0% {
@@ -822,7 +822,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.08456, 1.08456) rotate(-3.328deg);
+    transform: scale(1.08456, 1.08456) rotate(4.16deg);
   }
   50% {
     transform: scale(1, 1);
@@ -835,7 +835,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.08456, 1.08456) rotate(-3.328deg);
+    transform: scale(1.08456, 1.08456) rotate(4.16deg);
   }
   50% {
     transform: scale(1, 1);
@@ -848,7 +848,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.08456, 1.08456) rotate(-3.328deg);
+    transform: scale(1.08456, 1.08456) rotate(4.16deg);
   }
   50% {
     transform: scale(1, 1);
@@ -861,7 +861,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.08456, 1.08456) rotate(-3.328deg);
+    transform: scale(1.08456, 1.08456) rotate(4.16deg);
   }
   50% {
     transform: scale(1, 1);
@@ -881,7 +881,7 @@ input {
   top: -48px;
   left: -48px;
   animation: boom-13 800ms infinite;
-  animation-delay: 27ms;
+  animation-delay: 40ms;
 }
 @-moz-keyframes boom-13 {
   0% {
@@ -890,7 +890,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.09056, 1.09056) rotate(-0.818deg);
+    transform: scale(1.09056, 1.09056) rotate(-1.636deg);
   }
   50% {
     transform: scale(1, 1);
@@ -903,7 +903,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.09056, 1.09056) rotate(-0.818deg);
+    transform: scale(1.09056, 1.09056) rotate(-1.636deg);
   }
   50% {
     transform: scale(1, 1);
@@ -916,7 +916,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.09056, 1.09056) rotate(-0.818deg);
+    transform: scale(1.09056, 1.09056) rotate(-1.636deg);
   }
   50% {
     transform: scale(1, 1);
@@ -929,7 +929,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.09056, 1.09056) rotate(-0.818deg);
+    transform: scale(1.09056, 1.09056) rotate(-1.636deg);
   }
   50% {
     transform: scale(1, 1);
@@ -949,7 +949,7 @@ input {
   top: -52px;
   left: -52px;
   animation: boom-14 800ms infinite;
-  animation-delay: 85ms;
+  animation-delay: 23ms;
 }
 @-moz-keyframes boom-14 {
   0% {
@@ -958,7 +958,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.09704, 1.09704) rotate(-4.02deg);
+    transform: scale(1.09704, 1.09704) rotate(-4.824deg);
   }
   50% {
     transform: scale(1, 1);
@@ -971,7 +971,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.09704, 1.09704) rotate(-4.02deg);
+    transform: scale(1.09704, 1.09704) rotate(-4.824deg);
   }
   50% {
     transform: scale(1, 1);
@@ -984,7 +984,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.09704, 1.09704) rotate(-4.02deg);
+    transform: scale(1.09704, 1.09704) rotate(-4.824deg);
   }
   50% {
     transform: scale(1, 1);
@@ -997,7 +997,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.09704, 1.09704) rotate(-4.02deg);
+    transform: scale(1.09704, 1.09704) rotate(-4.824deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1017,7 +1017,7 @@ input {
   top: -56px;
   left: -56px;
   animation: boom-15 800ms infinite;
-  animation-delay: 65ms;
+  animation-delay: -78ms;
 }
 @-moz-keyframes boom-15 {
   0% {
@@ -1026,7 +1026,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.104, 1.104) rotate(-1.58deg);
+    transform: scale(1.104, 1.104) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1039,7 +1039,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.104, 1.104) rotate(-1.58deg);
+    transform: scale(1.104, 1.104) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1052,7 +1052,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.104, 1.104) rotate(-1.58deg);
+    transform: scale(1.104, 1.104) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1065,7 +1065,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.104, 1.104) rotate(-1.58deg);
+    transform: scale(1.104, 1.104) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1085,7 +1085,7 @@ input {
   top: -60px;
   left: -60px;
   animation: boom-16 800ms infinite;
-  animation-delay: 29ms;
+  animation-delay: 111ms;
 }
 @-moz-keyframes boom-16 {
   0% {
@@ -1094,7 +1094,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.11144, 1.11144) rotate(0.776deg);
+    transform: scale(1.11144, 1.11144) rotate(3.104deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1107,7 +1107,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.11144, 1.11144) rotate(0.776deg);
+    transform: scale(1.11144, 1.11144) rotate(3.104deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1120,7 +1120,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.11144, 1.11144) rotate(0.776deg);
+    transform: scale(1.11144, 1.11144) rotate(3.104deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1133,7 +1133,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.11144, 1.11144) rotate(0.776deg);
+    transform: scale(1.11144, 1.11144) rotate(3.104deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1153,7 +1153,7 @@ input {
   top: -64px;
   left: -64px;
   animation: boom-17 800ms infinite;
-  animation-delay: 85ms;
+  animation-delay: 101ms;
 }
 @-moz-keyframes boom-17 {
   0% {
@@ -1162,7 +1162,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.11936, 1.11936) rotate(0.762deg);
+    transform: scale(1.11936, 1.11936) rotate(-5.334deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1175,7 +1175,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.11936, 1.11936) rotate(0.762deg);
+    transform: scale(1.11936, 1.11936) rotate(-5.334deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1188,7 +1188,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.11936, 1.11936) rotate(0.762deg);
+    transform: scale(1.11936, 1.11936) rotate(-5.334deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1201,7 +1201,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.11936, 1.11936) rotate(0.762deg);
+    transform: scale(1.11936, 1.11936) rotate(-5.334deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1221,7 +1221,7 @@ input {
   top: -68px;
   left: -68px;
   animation: boom-18 800ms infinite;
-  animation-delay: -54ms;
+  animation-delay: 20ms;
 }
 @-moz-keyframes boom-18 {
   0% {
@@ -1230,7 +1230,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.12776, 1.12776) rotate(-0.748deg);
+    transform: scale(1.12776, 1.12776) rotate(-2.244deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1243,7 +1243,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.12776, 1.12776) rotate(-0.748deg);
+    transform: scale(1.12776, 1.12776) rotate(-2.244deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1256,7 +1256,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.12776, 1.12776) rotate(-0.748deg);
+    transform: scale(1.12776, 1.12776) rotate(-2.244deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1269,7 +1269,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.12776, 1.12776) rotate(-0.748deg);
+    transform: scale(1.12776, 1.12776) rotate(-2.244deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1289,7 +1289,7 @@ input {
   top: -72px;
   left: -72px;
   animation: boom-19 800ms infinite;
-  animation-delay: -27ms;
+  animation-delay: -113ms;
 }
 @-moz-keyframes boom-19 {
   0% {
@@ -1298,7 +1298,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.13664, 1.13664) rotate(-1.468deg);
+    transform: scale(1.13664, 1.13664) rotate(2.202deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1311,7 +1311,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.13664, 1.13664) rotate(-1.468deg);
+    transform: scale(1.13664, 1.13664) rotate(2.202deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1324,7 +1324,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.13664, 1.13664) rotate(-1.468deg);
+    transform: scale(1.13664, 1.13664) rotate(2.202deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1337,7 +1337,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.13664, 1.13664) rotate(-1.468deg);
+    transform: scale(1.13664, 1.13664) rotate(2.202deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1357,7 +1357,7 @@ input {
   top: -76px;
   left: -76px;
   animation: boom-20 800ms infinite;
-  animation-delay: -50ms;
+  animation-delay: -48ms;
 }
 @-moz-keyframes boom-20 {
   0% {
@@ -1366,7 +1366,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.146, 1.146) rotate(-5.04deg);
+    transform: scale(1.146, 1.146) rotate(-2.16deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1379,7 +1379,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.146, 1.146) rotate(-5.04deg);
+    transform: scale(1.146, 1.146) rotate(-2.16deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1392,7 +1392,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.146, 1.146) rotate(-5.04deg);
+    transform: scale(1.146, 1.146) rotate(-2.16deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1405,7 +1405,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.146, 1.146) rotate(-5.04deg);
+    transform: scale(1.146, 1.146) rotate(-2.16deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1425,7 +1425,7 @@ input {
   top: -80px;
   left: -80px;
   animation: boom-21 800ms infinite;
-  animation-delay: 38ms;
+  animation-delay: -76ms;
 }
 @-moz-keyframes boom-21 {
   0% {
@@ -1493,7 +1493,7 @@ input {
   top: -84px;
   left: -84px;
   animation: boom-22 800ms infinite;
-  animation-delay: -28ms;
+  animation-delay: -96ms;
 }
 @-moz-keyframes boom-22 {
   0% {
@@ -1502,7 +1502,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.16616, 1.16616) rotate(1.384deg);
+    transform: scale(1.16616, 1.16616) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1515,7 +1515,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.16616, 1.16616) rotate(1.384deg);
+    transform: scale(1.16616, 1.16616) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1528,7 +1528,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.16616, 1.16616) rotate(1.384deg);
+    transform: scale(1.16616, 1.16616) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1541,7 +1541,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.16616, 1.16616) rotate(1.384deg);
+    transform: scale(1.16616, 1.16616) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1561,7 +1561,7 @@ input {
   top: -88px;
   left: -88px;
   animation: boom-23 800ms infinite;
-  animation-delay: -178ms;
+  animation-delay: -47ms;
 }
 @-moz-keyframes boom-23 {
   0% {
@@ -1570,7 +1570,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.17696, 1.17696) rotate(-4.068000000000001deg);
+    transform: scale(1.17696, 1.17696) rotate(4.068000000000001deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1583,7 +1583,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.17696, 1.17696) rotate(-4.068000000000001deg);
+    transform: scale(1.17696, 1.17696) rotate(4.068000000000001deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1596,7 +1596,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.17696, 1.17696) rotate(-4.068000000000001deg);
+    transform: scale(1.17696, 1.17696) rotate(4.068000000000001deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1609,7 +1609,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.17696, 1.17696) rotate(-4.068000000000001deg);
+    transform: scale(1.17696, 1.17696) rotate(4.068000000000001deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1629,7 +1629,7 @@ input {
   top: -92px;
   left: -92px;
   animation: boom-24 800ms infinite;
-  animation-delay: -150ms;
+  animation-delay: -136ms;
 }
 @-moz-keyframes boom-24 {
   0% {
@@ -1638,7 +1638,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.18824, 1.18824) rotate(1.328deg);
+    transform: scale(1.18824, 1.18824) rotate(2.656deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1651,7 +1651,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.18824, 1.18824) rotate(1.328deg);
+    transform: scale(1.18824, 1.18824) rotate(2.656deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1664,7 +1664,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.18824, 1.18824) rotate(1.328deg);
+    transform: scale(1.18824, 1.18824) rotate(2.656deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1677,7 +1677,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.18824, 1.18824) rotate(1.328deg);
+    transform: scale(1.18824, 1.18824) rotate(2.656deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1697,7 +1697,7 @@ input {
   top: -96px;
   left: -96px;
   animation: boom-25 800ms infinite;
-  animation-delay: 13ms;
+  animation-delay: -23ms;
 }
 @-moz-keyframes boom-25 {
   0% {
@@ -1706,7 +1706,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.2, 1.2) rotate(1.3deg);
+    transform: scale(1.2, 1.2) rotate(0.65deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1719,7 +1719,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.2, 1.2) rotate(1.3deg);
+    transform: scale(1.2, 1.2) rotate(0.65deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1732,7 +1732,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.2, 1.2) rotate(1.3deg);
+    transform: scale(1.2, 1.2) rotate(0.65deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1745,7 +1745,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.2, 1.2) rotate(1.3deg);
+    transform: scale(1.2, 1.2) rotate(0.65deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1765,7 +1765,7 @@ input {
   top: -100px;
   left: -100px;
   animation: boom-26 800ms infinite;
-  animation-delay: -188ms;
+  animation-delay: -63ms;
 }
 @-moz-keyframes boom-26 {
   0% {
@@ -1774,7 +1774,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.21224, 1.21224) rotate(1.272deg);
+    transform: scale(1.21224, 1.21224) rotate(-3.18deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1787,7 +1787,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.21224, 1.21224) rotate(1.272deg);
+    transform: scale(1.21224, 1.21224) rotate(-3.18deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1800,7 +1800,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.21224, 1.21224) rotate(1.272deg);
+    transform: scale(1.21224, 1.21224) rotate(-3.18deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1813,7 +1813,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.21224, 1.21224) rotate(1.272deg);
+    transform: scale(1.21224, 1.21224) rotate(-3.18deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1833,7 +1833,7 @@ input {
   top: -104px;
   left: -104px;
   animation: boom-27 800ms infinite;
-  animation-delay: -29ms;
+  animation-delay: -215ms;
 }
 @-moz-keyframes boom-27 {
   0% {
@@ -1842,7 +1842,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.22496, 1.22496) rotate(-1.866deg);
+    transform: scale(1.22496, 1.22496) rotate(-2.488deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1855,7 +1855,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.22496, 1.22496) rotate(-1.866deg);
+    transform: scale(1.22496, 1.22496) rotate(-2.488deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1868,7 +1868,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.22496, 1.22496) rotate(-1.866deg);
+    transform: scale(1.22496, 1.22496) rotate(-2.488deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1881,7 +1881,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.22496, 1.22496) rotate(-1.866deg);
+    transform: scale(1.22496, 1.22496) rotate(-2.488deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1901,7 +1901,7 @@ input {
   top: -108px;
   left: -108px;
   animation: boom-28 800ms infinite;
-  animation-delay: -195ms;
+  animation-delay: -120ms;
 }
 @-moz-keyframes boom-28 {
   0% {
@@ -1910,7 +1910,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.23816, 1.23816) rotate(1.216deg);
+    transform: scale(1.23816, 1.23816) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1923,7 +1923,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.23816, 1.23816) rotate(1.216deg);
+    transform: scale(1.23816, 1.23816) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1936,7 +1936,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.23816, 1.23816) rotate(1.216deg);
+    transform: scale(1.23816, 1.23816) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1949,7 +1949,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.23816, 1.23816) rotate(1.216deg);
+    transform: scale(1.23816, 1.23816) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1969,7 +1969,7 @@ input {
   top: -112px;
   left: -112px;
   animation: boom-29 800ms infinite;
-  animation-delay: -35ms;
+  animation-delay: -47ms;
 }
 @-moz-keyframes boom-29 {
   0% {
@@ -1978,7 +1978,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.25184, 1.25184) rotate(1.782deg);
+    transform: scale(1.25184, 1.25184) rotate(2.97deg);
   }
   50% {
     transform: scale(1, 1);
@@ -1991,7 +1991,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.25184, 1.25184) rotate(1.782deg);
+    transform: scale(1.25184, 1.25184) rotate(2.97deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2004,7 +2004,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.25184, 1.25184) rotate(1.782deg);
+    transform: scale(1.25184, 1.25184) rotate(2.97deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2017,7 +2017,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.25184, 1.25184) rotate(1.782deg);
+    transform: scale(1.25184, 1.25184) rotate(2.97deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2037,7 +2037,7 @@ input {
   top: -116px;
   left: -116px;
   animation: boom-30 800ms infinite;
-  animation-delay: -153ms;
+  animation-delay: -50ms;
 }
 @-moz-keyframes boom-30 {
   0% {
@@ -2046,7 +2046,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.266, 1.266) rotate(-0.58deg);
+    transform: scale(1.266, 1.266) rotate(1.74deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2059,7 +2059,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.266, 1.266) rotate(-0.58deg);
+    transform: scale(1.266, 1.266) rotate(1.74deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2072,7 +2072,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.266, 1.266) rotate(-0.58deg);
+    transform: scale(1.266, 1.266) rotate(1.74deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2085,7 +2085,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.266, 1.266) rotate(-0.58deg);
+    transform: scale(1.266, 1.266) rotate(1.74deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2105,7 +2105,7 @@ input {
   top: -120px;
   left: -120px;
   animation: boom-31 800ms infinite;
-  animation-delay: -195ms;
+  animation-delay: -154ms;
 }
 @-moz-keyframes boom-31 {
   0% {
@@ -2114,7 +2114,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.28064, 1.28064) rotate(-1.698deg);
+    transform: scale(1.28064, 1.28064) rotate(-1.132deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2127,7 +2127,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.28064, 1.28064) rotate(-1.698deg);
+    transform: scale(1.28064, 1.28064) rotate(-1.132deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2140,7 +2140,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.28064, 1.28064) rotate(-1.698deg);
+    transform: scale(1.28064, 1.28064) rotate(-1.132deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2153,7 +2153,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.28064, 1.28064) rotate(-1.698deg);
+    transform: scale(1.28064, 1.28064) rotate(-1.132deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2173,7 +2173,7 @@ input {
   top: -124px;
   left: -124px;
   animation: boom-32 800ms infinite;
-  animation-delay: -87ms;
+  animation-delay: -251ms;
 }
 @-moz-keyframes boom-32 {
   0% {
@@ -2182,7 +2182,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.29576, 1.29576) rotate(-3.312deg);
+    transform: scale(1.29576, 1.29576) rotate(-0.552deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2195,7 +2195,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.29576, 1.29576) rotate(-3.312deg);
+    transform: scale(1.29576, 1.29576) rotate(-0.552deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2208,7 +2208,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.29576, 1.29576) rotate(-3.312deg);
+    transform: scale(1.29576, 1.29576) rotate(-0.552deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2221,7 +2221,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.29576, 1.29576) rotate(-3.312deg);
+    transform: scale(1.29576, 1.29576) rotate(-0.552deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2241,7 +2241,7 @@ input {
   top: -128px;
   left: -128px;
   animation: boom-33 800ms infinite;
-  animation-delay: -112ms;
+  animation-delay: -185ms;
 }
 @-moz-keyframes boom-33 {
   0% {
@@ -2250,7 +2250,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.31136, 1.31136) rotate(2.69deg);
+    transform: scale(1.31136, 1.31136) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2263,7 +2263,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.31136, 1.31136) rotate(2.69deg);
+    transform: scale(1.31136, 1.31136) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2276,7 +2276,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.31136, 1.31136) rotate(2.69deg);
+    transform: scale(1.31136, 1.31136) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2289,7 +2289,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.31136, 1.31136) rotate(2.69deg);
+    transform: scale(1.31136, 1.31136) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2309,7 +2309,7 @@ input {
   top: -132px;
   left: -132px;
   animation: boom-34 800ms infinite;
-  animation-delay: -86ms;
+  animation-delay: -170ms;
 }
 @-moz-keyframes boom-34 {
   0% {
@@ -2318,7 +2318,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.32744, 1.32744) rotate(-3.144deg);
+    transform: scale(1.32744, 1.32744) rotate(2.62deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2331,7 +2331,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.32744, 1.32744) rotate(-3.144deg);
+    transform: scale(1.32744, 1.32744) rotate(2.62deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2344,7 +2344,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.32744, 1.32744) rotate(-3.144deg);
+    transform: scale(1.32744, 1.32744) rotate(2.62deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2357,7 +2357,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.32744, 1.32744) rotate(-3.144deg);
+    transform: scale(1.32744, 1.32744) rotate(2.62deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2377,7 +2377,7 @@ input {
   top: -136px;
   left: -136px;
   animation: boom-35 800ms infinite;
-  animation-delay: -276ms;
+  animation-delay: -156ms;
 }
 @-moz-keyframes boom-35 {
   0% {
@@ -2386,7 +2386,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.344, 1.344) rotate(1.53deg);
+    transform: scale(1.344, 1.344) rotate(2.55deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2399,7 +2399,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.344, 1.344) rotate(1.53deg);
+    transform: scale(1.344, 1.344) rotate(2.55deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2412,7 +2412,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.344, 1.344) rotate(1.53deg);
+    transform: scale(1.344, 1.344) rotate(2.55deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2425,7 +2425,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.344, 1.344) rotate(1.53deg);
+    transform: scale(1.344, 1.344) rotate(2.55deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2445,7 +2445,7 @@ input {
   top: -140px;
   left: -140px;
   animation: boom-36 800ms infinite;
-  animation-delay: -265ms;
+  animation-delay: -172ms;
 }
 @-moz-keyframes boom-36 {
   0% {
@@ -2454,7 +2454,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.36104, 1.36104) rotate(2.976deg);
+    transform: scale(1.36104, 1.36104) rotate(-0.992deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2467,7 +2467,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.36104, 1.36104) rotate(2.976deg);
+    transform: scale(1.36104, 1.36104) rotate(-0.992deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2480,7 +2480,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.36104, 1.36104) rotate(2.976deg);
+    transform: scale(1.36104, 1.36104) rotate(-0.992deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2493,7 +2493,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.36104, 1.36104) rotate(2.976deg);
+    transform: scale(1.36104, 1.36104) rotate(-0.992deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2513,7 +2513,7 @@ input {
   top: -144px;
   left: -144px;
   animation: boom-37 800ms infinite;
-  animation-delay: -250ms;
+  animation-delay: -74ms;
 }
 @-moz-keyframes boom-37 {
   0% {
@@ -2522,7 +2522,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.37856, 1.37856) rotate(-0.964deg);
+    transform: scale(1.37856, 1.37856) rotate(0.482deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2535,7 +2535,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.37856, 1.37856) rotate(-0.964deg);
+    transform: scale(1.37856, 1.37856) rotate(0.482deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2548,7 +2548,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.37856, 1.37856) rotate(-0.964deg);
+    transform: scale(1.37856, 1.37856) rotate(0.482deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2561,7 +2561,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.37856, 1.37856) rotate(-0.964deg);
+    transform: scale(1.37856, 1.37856) rotate(0.482deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2581,7 +2581,7 @@ input {
   top: -148px;
   left: -148px;
   animation: boom-38 800ms infinite;
-  animation-delay: -170ms;
+  animation-delay: -168ms;
 }
 @-moz-keyframes boom-38 {
   0% {
@@ -2590,7 +2590,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.39656, 1.39656) rotate(2.808deg);
+    transform: scale(1.39656, 1.39656) rotate(-1.872deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2603,7 +2603,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.39656, 1.39656) rotate(2.808deg);
+    transform: scale(1.39656, 1.39656) rotate(-1.872deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2616,7 +2616,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.39656, 1.39656) rotate(2.808deg);
+    transform: scale(1.39656, 1.39656) rotate(-1.872deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2629,7 +2629,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.39656, 1.39656) rotate(2.808deg);
+    transform: scale(1.39656, 1.39656) rotate(-1.872deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2649,7 +2649,7 @@ input {
   top: -152px;
   left: -152px;
   animation: boom-39 800ms infinite;
-  animation-delay: -250ms;
+  animation-delay: -194ms;
 }
 @-moz-keyframes boom-39 {
   0% {
@@ -2658,7 +2658,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.41504, 1.41504) rotate(2.27deg);
+    transform: scale(1.41504, 1.41504) rotate(-1.816deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2671,7 +2671,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.41504, 1.41504) rotate(2.27deg);
+    transform: scale(1.41504, 1.41504) rotate(-1.816deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2684,7 +2684,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.41504, 1.41504) rotate(2.27deg);
+    transform: scale(1.41504, 1.41504) rotate(-1.816deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2697,7 +2697,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.41504, 1.41504) rotate(2.27deg);
+    transform: scale(1.41504, 1.41504) rotate(-1.816deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2717,7 +2717,7 @@ input {
   top: -156px;
   left: -156px;
   animation: boom-40 800ms infinite;
-  animation-delay: -140ms;
+  animation-delay: -201ms;
 }
 @-moz-keyframes boom-40 {
   0% {
@@ -2726,7 +2726,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.434, 1.434) rotate(0.88deg);
+    transform: scale(1.434, 1.434) rotate(1.32deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2739,7 +2739,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.434, 1.434) rotate(0.88deg);
+    transform: scale(1.434, 1.434) rotate(1.32deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2752,7 +2752,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.434, 1.434) rotate(0.88deg);
+    transform: scale(1.434, 1.434) rotate(1.32deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2765,7 +2765,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.434, 1.434) rotate(0.88deg);
+    transform: scale(1.434, 1.434) rotate(1.32deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2785,7 +2785,7 @@ input {
   top: -160px;
   left: -160px;
   animation: boom-41 800ms infinite;
-  animation-delay: -131ms;
+  animation-delay: -273ms;
 }
 @-moz-keyframes boom-41 {
   0% {
@@ -2794,7 +2794,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.45344, 1.45344) rotate(0.426deg);
+    transform: scale(1.45344, 1.45344) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2807,7 +2807,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.45344, 1.45344) rotate(0.426deg);
+    transform: scale(1.45344, 1.45344) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2820,7 +2820,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.45344, 1.45344) rotate(0.426deg);
+    transform: scale(1.45344, 1.45344) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2833,7 +2833,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.45344, 1.45344) rotate(0.426deg);
+    transform: scale(1.45344, 1.45344) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2853,7 +2853,7 @@ input {
   top: -164px;
   left: -164px;
   animation: boom-42 800ms infinite;
-  animation-delay: -263ms;
+  animation-delay: -334ms;
 }
 @-moz-keyframes boom-42 {
   0% {
@@ -2862,7 +2862,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.47336, 1.47336) rotate(-0.412deg);
+    transform: scale(1.47336, 1.47336) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2875,7 +2875,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.47336, 1.47336) rotate(-0.412deg);
+    transform: scale(1.47336, 1.47336) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2888,7 +2888,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.47336, 1.47336) rotate(-0.412deg);
+    transform: scale(1.47336, 1.47336) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2901,7 +2901,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.47336, 1.47336) rotate(-0.412deg);
+    transform: scale(1.47336, 1.47336) rotate(0deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2921,7 +2921,7 @@ input {
   top: -168px;
   left: -168px;
   animation: boom-43 800ms infinite;
-  animation-delay: -222ms;
+  animation-delay: -127ms;
 }
 @-moz-keyframes boom-43 {
   0% {
@@ -2930,7 +2930,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.49376, 1.49376) rotate(0deg);
+    transform: scale(1.49376, 1.49376) rotate(-2.786deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2943,7 +2943,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.49376, 1.49376) rotate(0deg);
+    transform: scale(1.49376, 1.49376) rotate(-2.786deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2956,7 +2956,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.49376, 1.49376) rotate(0deg);
+    transform: scale(1.49376, 1.49376) rotate(-2.786deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2969,7 +2969,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.49376, 1.49376) rotate(0deg);
+    transform: scale(1.49376, 1.49376) rotate(-2.786deg);
   }
   50% {
     transform: scale(1, 1);
@@ -2989,7 +2989,7 @@ input {
   top: -172px;
   left: -172px;
   animation: boom-44 800ms infinite;
-  animation-delay: -337ms;
+  animation-delay: -180ms;
 }
 @-moz-keyframes boom-44 {
   0% {
@@ -2998,7 +2998,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.51464, 1.51464) rotate(-0.384deg);
+    transform: scale(1.51464, 1.51464) rotate(0.384deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3011,7 +3011,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.51464, 1.51464) rotate(-0.384deg);
+    transform: scale(1.51464, 1.51464) rotate(0.384deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3024,7 +3024,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.51464, 1.51464) rotate(-0.384deg);
+    transform: scale(1.51464, 1.51464) rotate(0.384deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3037,7 +3037,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.51464, 1.51464) rotate(-0.384deg);
+    transform: scale(1.51464, 1.51464) rotate(0.384deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3057,7 +3057,7 @@ input {
   top: -176px;
   left: -176px;
   animation: boom-45 800ms infinite;
-  animation-delay: -279ms;
+  animation-delay: -246ms;
 }
 @-moz-keyframes boom-45 {
   0% {
@@ -3066,7 +3066,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.536, 1.536) rotate(-0.74deg);
+    transform: scale(1.536, 1.536) rotate(1.85deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3079,7 +3079,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.536, 1.536) rotate(-0.74deg);
+    transform: scale(1.536, 1.536) rotate(1.85deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3092,7 +3092,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.536, 1.536) rotate(-0.74deg);
+    transform: scale(1.536, 1.536) rotate(1.85deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3105,7 +3105,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.536, 1.536) rotate(-0.74deg);
+    transform: scale(1.536, 1.536) rotate(1.85deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3125,7 +3125,7 @@ input {
   top: -180px;
   left: -180px;
   animation: boom-46 800ms infinite;
-  animation-delay: -310ms;
+  animation-delay: -170ms;
 }
 @-moz-keyframes boom-46 {
   0% {
@@ -3134,7 +3134,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.55784, 1.55784) rotate(-0.712deg);
+    transform: scale(1.55784, 1.55784) rotate(-1.424deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3147,7 +3147,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.55784, 1.55784) rotate(-0.712deg);
+    transform: scale(1.55784, 1.55784) rotate(-1.424deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3160,7 +3160,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.55784, 1.55784) rotate(-0.712deg);
+    transform: scale(1.55784, 1.55784) rotate(-1.424deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3173,7 +3173,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.55784, 1.55784) rotate(-0.712deg);
+    transform: scale(1.55784, 1.55784) rotate(-1.424deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3193,7 +3193,7 @@ input {
   top: -184px;
   left: -184px;
   animation: boom-47 800ms infinite;
-  animation-delay: -272ms;
+  animation-delay: -308ms;
 }
 @-moz-keyframes boom-47 {
   0% {
@@ -3202,7 +3202,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.58016, 1.58016) rotate(-2.394deg);
+    transform: scale(1.58016, 1.58016) rotate(-1.026deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3215,7 +3215,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.58016, 1.58016) rotate(-2.394deg);
+    transform: scale(1.58016, 1.58016) rotate(-1.026deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3228,7 +3228,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.58016, 1.58016) rotate(-2.394deg);
+    transform: scale(1.58016, 1.58016) rotate(-1.026deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3241,7 +3241,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.58016, 1.58016) rotate(-2.394deg);
+    transform: scale(1.58016, 1.58016) rotate(-1.026deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3261,7 +3261,7 @@ input {
   top: -188px;
   left: -188px;
   animation: boom-48 800ms infinite;
-  animation-delay: -289ms;
+  animation-delay: -255ms;
 }
 @-moz-keyframes boom-48 {
   0% {
@@ -3329,7 +3329,7 @@ input {
   top: -192px;
   left: -192px;
   animation: boom-49 800ms infinite;
-  animation-delay: -325ms;
+  animation-delay: -158ms;
 }
 @-moz-keyframes boom-49 {
   0% {
@@ -3338,7 +3338,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.62624, 1.62624) rotate(-1.884deg);
+    transform: scale(1.62624, 1.62624) rotate(-2.198deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3351,7 +3351,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.62624, 1.62624) rotate(-1.884deg);
+    transform: scale(1.62624, 1.62624) rotate(-2.198deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3364,7 +3364,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.62624, 1.62624) rotate(-1.884deg);
+    transform: scale(1.62624, 1.62624) rotate(-2.198deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3377,7 +3377,7 @@ input {
   }
   2% {
     animation-timing-function: ease-in;
-    transform: scale(1.62624, 1.62624) rotate(-1.884deg);
+    transform: scale(1.62624, 1.62624) rotate(-2.198deg);
   }
   50% {
     transform: scale(1, 1);
@@ -3397,7 +3397,7 @@ input {
   top: -196px;
   left: -196px;
   animation: boom-50 800ms infinite;
-  animation-delay: -296ms;
+  animation-delay: -382ms;
 }
 @-moz-keyframes boom-50 {
   0% {
