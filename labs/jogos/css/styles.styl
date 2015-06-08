@@ -1,0 +1,109 @@
+layers=50
+size=400px
+//bg='http://bygonebureau.com/wp-content/uploads/2013/11/sh.gif'
+//bg='http://i.minus.com/iyt5qZmXh3gpY.gif'
+bg='../img/logo.png'
+random(min, max)
+  return floor( math(0, "random") * max + min )
+
+
+html
+  display table
+  height 100%
+  margin 0 auto  
+body
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  background black
+  color white
+
+input
+  position relative
+
+.main-wrap {
+  position relative
+  width size
+  height @width
+}
+
+#waves {
+  position relative
+  width size
+  height @width  
+}
+  
+.circle
+  font-size 80px
+  //text-transform uppercase
+  font-weight bold
+  position absolute
+  top 50%
+  left 50%
+  overflow hidden
+  border-radius 100%
+  background black
+  transform translate3d(-50%,-50%,0) rotateY(0)
+
+.circle-text
+  position absolute
+  width size
+  height size
+  text-align center
+  &:before
+    content ''
+    display block
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%
+    background url(bg) 50% 50% no-repeat
+    background-size 100%
+    
+  
+for i in (1..layers)
+  ii=layers - i // inverse i
+  nii=ii/layers // normalized ii
+  ni=i/layers // normalized i
+  cur-width=(size/layers)*(ii+1)
+  
+  
+  @keyframes boom-{i}
+    0%
+      animation-timing-function ease-out
+      transform scale(1,1)
+      //opacity 0.7
+    2%
+      animation-timing-function ease-in
+      s=1.05+((ni**2)*0.6)
+      r=random(-7deg,14)*(0.3+(nii*0.7))
+      transform scale(s,s) rotate(r)
+      //opacity 1 
+    50%
+      transform scale(1,1)
+      //opacity 0.5
+        
+  .circle:nth-child({i})
+    width cur-width
+    border 1px solid black
+    box-shadow 0 0 1px 1px rgba(0,0,0,1), 0 0 0 2px rgba(255,255,255,(0.025+ ((ni**2) * 0.10)))
+    
+    c=rgba(255,255,255,(-0.8+(nii**1)))
+    border-left-color c
+    border-right-color c
+    height @width
+    line-height size
+    //margin-left (-@width/2)
+    //margin-top (-@height/2)
+    text-align center
+ 
+    .circle-text
+      // top -((size - cur-width)/2) + (random(-2px,4px))
+      // left -((size - cur-width)/2) + (random(-2px,4px))
+      top -((size - cur-width)/2)
+      left -((size - cur-width)/2)
+      t=800ms
+      delay=(i*-(t*0.010)) + (random(0,t*0.30))
+      animation unquote("boom-"+i) t infinite
+      animation-delay delay

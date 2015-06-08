@@ -1,0 +1,3453 @@
+html {
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+}
+body {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  background: #000;
+  color: #fff;
+}
+input {
+  position: relative;
+}
+.main-wrap {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+#waves {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.circle {
+  font-size: 80px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  border-radius: 100%;
+  background: #000;
+  transform: translate3d(-50%, -50%, 0) rotateY(0);
+}
+.circle-text {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+.circle-text:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/logo.png") 50% 50% no-repeat;
+  background-size: 100%;
+}
+.circle:nth-child(1) {
+  width: 400px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.025);
+  border-left-color: rgba(255,255,255,0.18);
+  border-right-color: rgba(255,255,255,0.18);
+  height: 400px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(1) .circle-text {
+  top: 0px;
+  left: 0px;
+  animation: boom-1 800ms infinite;
+  animation-delay: 68ms;
+}
+@-moz-keyframes boom-1 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05024, 1.05024) rotate(-2.958deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-1 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05024, 1.05024) rotate(-2.958deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-1 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05024, 1.05024) rotate(-2.958deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-1 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05024, 1.05024) rotate(-2.958deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(2) {
+  width: 392px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.025);
+  border-left-color: rgba(255,255,255,0.16);
+  border-right-color: rgba(255,255,255,0.16);
+  height: 392px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(2) .circle-text {
+  top: -4px;
+  left: -4px;
+  animation: boom-2 800ms infinite;
+  animation-delay: 14ms;
+}
+@-moz-keyframes boom-2 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05096, 1.05096) rotate(0deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-2 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05096, 1.05096) rotate(0deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-2 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05096, 1.05096) rotate(0deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-2 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05096, 1.05096) rotate(0deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(3) {
+  width: 384px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.025);
+  border-left-color: rgba(255,255,255,0.14);
+  border-right-color: rgba(255,255,255,0.14);
+  height: 384px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(3) .circle-text {
+  top: -8px;
+  left: -8px;
+  animation: boom-3 800ms infinite;
+  animation-delay: 103ms;
+}
+@-moz-keyframes boom-3 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05216, 1.05216) rotate(1.916deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-3 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05216, 1.05216) rotate(1.916deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-3 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05216, 1.05216) rotate(1.916deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-3 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05216, 1.05216) rotate(1.916deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(4) {
+  width: 376px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.026);
+  border-left-color: rgba(255,255,255,0.12);
+  border-right-color: rgba(255,255,255,0.12);
+  height: 376px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(4) .circle-text {
+  top: -12px;
+  left: -12px;
+  animation: boom-4 800ms infinite;
+  animation-delay: -5ms;
+}
+@-moz-keyframes boom-4 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05384, 1.05384) rotate(1.888deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-4 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05384, 1.05384) rotate(1.888deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-4 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05384, 1.05384) rotate(1.888deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-4 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05384, 1.05384) rotate(1.888deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(5) {
+  width: 368px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.026);
+  border-left-color: rgba(255,255,255,0.1);
+  border-right-color: rgba(255,255,255,0.1);
+  height: 368px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(5) .circle-text {
+  top: -16px;
+  left: -16px;
+  animation: boom-5 800ms infinite;
+  animation-delay: 108ms;
+}
+@-moz-keyframes boom-5 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.056, 1.056) rotate(-6.510000000000001deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-5 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.056, 1.056) rotate(-6.510000000000001deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-5 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.056, 1.056) rotate(-6.510000000000001deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-5 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.056, 1.056) rotate(-6.510000000000001deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(6) {
+  width: 360px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.026);
+  border-left-color: rgba(255,255,255,0.08);
+  border-right-color: rgba(255,255,255,0.08);
+  height: 360px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(6) .circle-text {
+  top: -20px;
+  left: -20px;
+  animation: boom-6 800ms infinite;
+  animation-delay: -7ms;
+}
+@-moz-keyframes boom-6 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05864, 1.05864) rotate(0.916deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-6 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05864, 1.05864) rotate(0.916deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-6 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05864, 1.05864) rotate(0.916deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-6 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.05864, 1.05864) rotate(0.916deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(7) {
+  width: 352px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.027);
+  border-left-color: rgba(255,255,255,0.06);
+  border-right-color: rgba(255,255,255,0.06);
+  height: 352px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(7) .circle-text {
+  top: -24px;
+  left: -24px;
+  animation: boom-7 800ms infinite;
+  animation-delay: 134ms;
+}
+@-moz-keyframes boom-7 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.06176, 1.06176) rotate(5.412deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-7 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.06176, 1.06176) rotate(5.412deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-7 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.06176, 1.06176) rotate(5.412deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-7 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.06176, 1.06176) rotate(5.412deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(8) {
+  width: 344px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.028);
+  border-left-color: rgba(255,255,255,0.04);
+  border-right-color: rgba(255,255,255,0.04);
+  height: 344px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(8) .circle-text {
+  top: -28px;
+  left: -28px;
+  animation: boom-8 800ms infinite;
+  animation-delay: -14ms;
+}
+@-moz-keyframes boom-8 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.06536, 1.06536) rotate(5.328deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-8 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.06536, 1.06536) rotate(5.328deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-8 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.06536, 1.06536) rotate(5.328deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-8 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.06536, 1.06536) rotate(5.328deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(9) {
+  width: 336px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.028);
+  border-left-color: rgba(255,255,255,0.02);
+  border-right-color: rgba(255,255,255,0.02);
+  height: 336px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(9) .circle-text {
+  top: -32px;
+  left: -32px;
+  animation: boom-9 800ms infinite;
+  animation-delay: 125ms;
+}
+@-moz-keyframes boom-9 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.06944, 1.06944) rotate(5.244deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-9 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.06944, 1.06944) rotate(5.244deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-9 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.06944, 1.06944) rotate(5.244deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-9 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.06944, 1.06944) rotate(5.244deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(10) {
+  width: 328px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.029);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 328px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(10) .circle-text {
+  top: -36px;
+  left: -36px;
+  animation: boom-10 800ms infinite;
+  animation-delay: 62ms;
+}
+@-moz-keyframes boom-10 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.074, 1.074) rotate(-3.44deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-10 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.074, 1.074) rotate(-3.44deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-10 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.074, 1.074) rotate(-3.44deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-10 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.074, 1.074) rotate(-3.44deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(11) {
+  width: 320px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.03);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 320px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(11) .circle-text {
+  top: -40px;
+  left: -40px;
+  animation: boom-11 800ms infinite;
+  animation-delay: 126ms;
+}
+@-moz-keyframes boom-11 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.07904, 1.07904) rotate(1.692deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-11 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.07904, 1.07904) rotate(1.692deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-11 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.07904, 1.07904) rotate(1.692deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-11 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.07904, 1.07904) rotate(1.692deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(12) {
+  width: 312px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.031);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 312px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(12) .circle-text {
+  top: -44px;
+  left: -44px;
+  animation: boom-12 800ms infinite;
+  animation-delay: 15ms;
+}
+@-moz-keyframes boom-12 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.08456, 1.08456) rotate(-3.328deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-12 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.08456, 1.08456) rotate(-3.328deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-12 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.08456, 1.08456) rotate(-3.328deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-12 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.08456, 1.08456) rotate(-3.328deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(13) {
+  width: 304px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.032);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 304px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(13) .circle-text {
+  top: -48px;
+  left: -48px;
+  animation: boom-13 800ms infinite;
+  animation-delay: 27ms;
+}
+@-moz-keyframes boom-13 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.09056, 1.09056) rotate(-0.818deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-13 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.09056, 1.09056) rotate(-0.818deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-13 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.09056, 1.09056) rotate(-0.818deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-13 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.09056, 1.09056) rotate(-0.818deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(14) {
+  width: 296px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.033);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 296px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(14) .circle-text {
+  top: -52px;
+  left: -52px;
+  animation: boom-14 800ms infinite;
+  animation-delay: 85ms;
+}
+@-moz-keyframes boom-14 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.09704, 1.09704) rotate(-4.02deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-14 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.09704, 1.09704) rotate(-4.02deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-14 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.09704, 1.09704) rotate(-4.02deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-14 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.09704, 1.09704) rotate(-4.02deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(15) {
+  width: 288px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.034);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 288px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(15) .circle-text {
+  top: -56px;
+  left: -56px;
+  animation: boom-15 800ms infinite;
+  animation-delay: 65ms;
+}
+@-moz-keyframes boom-15 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.104, 1.104) rotate(-1.58deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-15 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.104, 1.104) rotate(-1.58deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-15 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.104, 1.104) rotate(-1.58deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-15 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.104, 1.104) rotate(-1.58deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(16) {
+  width: 280px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.035);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 280px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(16) .circle-text {
+  top: -60px;
+  left: -60px;
+  animation: boom-16 800ms infinite;
+  animation-delay: 29ms;
+}
+@-moz-keyframes boom-16 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.11144, 1.11144) rotate(0.776deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-16 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.11144, 1.11144) rotate(0.776deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-16 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.11144, 1.11144) rotate(0.776deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-16 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.11144, 1.11144) rotate(0.776deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(17) {
+  width: 272px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.037);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 272px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(17) .circle-text {
+  top: -64px;
+  left: -64px;
+  animation: boom-17 800ms infinite;
+  animation-delay: 85ms;
+}
+@-moz-keyframes boom-17 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.11936, 1.11936) rotate(0.762deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-17 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.11936, 1.11936) rotate(0.762deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-17 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.11936, 1.11936) rotate(0.762deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-17 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.11936, 1.11936) rotate(0.762deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(18) {
+  width: 264px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.038);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 264px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(18) .circle-text {
+  top: -68px;
+  left: -68px;
+  animation: boom-18 800ms infinite;
+  animation-delay: -54ms;
+}
+@-moz-keyframes boom-18 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.12776, 1.12776) rotate(-0.748deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-18 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.12776, 1.12776) rotate(-0.748deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-18 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.12776, 1.12776) rotate(-0.748deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-18 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.12776, 1.12776) rotate(-0.748deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(19) {
+  width: 256px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.039);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 256px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(19) .circle-text {
+  top: -72px;
+  left: -72px;
+  animation: boom-19 800ms infinite;
+  animation-delay: -27ms;
+}
+@-moz-keyframes boom-19 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.13664, 1.13664) rotate(-1.468deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-19 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.13664, 1.13664) rotate(-1.468deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-19 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.13664, 1.13664) rotate(-1.468deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-19 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.13664, 1.13664) rotate(-1.468deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(20) {
+  width: 248px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.041);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 248px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(20) .circle-text {
+  top: -76px;
+  left: -76px;
+  animation: boom-20 800ms infinite;
+  animation-delay: -50ms;
+}
+@-moz-keyframes boom-20 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.146, 1.146) rotate(-5.04deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-20 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.146, 1.146) rotate(-5.04deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-20 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.146, 1.146) rotate(-5.04deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-20 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.146, 1.146) rotate(-5.04deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(21) {
+  width: 240px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.043);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 240px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(21) .circle-text {
+  top: -80px;
+  left: -80px;
+  animation: boom-21 800ms infinite;
+  animation-delay: 38ms;
+}
+@-moz-keyframes boom-21 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.15584, 1.15584) rotate(-1.412deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-21 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.15584, 1.15584) rotate(-1.412deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-21 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.15584, 1.15584) rotate(-1.412deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-21 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.15584, 1.15584) rotate(-1.412deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(22) {
+  width: 232px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.044);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 232px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(22) .circle-text {
+  top: -84px;
+  left: -84px;
+  animation: boom-22 800ms infinite;
+  animation-delay: -28ms;
+}
+@-moz-keyframes boom-22 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.16616, 1.16616) rotate(1.384deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-22 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.16616, 1.16616) rotate(1.384deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-22 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.16616, 1.16616) rotate(1.384deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-22 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.16616, 1.16616) rotate(1.384deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(23) {
+  width: 224px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.046);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 224px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(23) .circle-text {
+  top: -88px;
+  left: -88px;
+  animation: boom-23 800ms infinite;
+  animation-delay: -178ms;
+}
+@-moz-keyframes boom-23 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.17696, 1.17696) rotate(-4.068000000000001deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-23 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.17696, 1.17696) rotate(-4.068000000000001deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-23 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.17696, 1.17696) rotate(-4.068000000000001deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-23 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.17696, 1.17696) rotate(-4.068000000000001deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(24) {
+  width: 216px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.048);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 216px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(24) .circle-text {
+  top: -92px;
+  left: -92px;
+  animation: boom-24 800ms infinite;
+  animation-delay: -150ms;
+}
+@-moz-keyframes boom-24 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.18824, 1.18824) rotate(1.328deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-24 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.18824, 1.18824) rotate(1.328deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-24 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.18824, 1.18824) rotate(1.328deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-24 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.18824, 1.18824) rotate(1.328deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(25) {
+  width: 208px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.05);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 208px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(25) .circle-text {
+  top: -96px;
+  left: -96px;
+  animation: boom-25 800ms infinite;
+  animation-delay: 13ms;
+}
+@-moz-keyframes boom-25 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.2, 1.2) rotate(1.3deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-25 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.2, 1.2) rotate(1.3deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-25 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.2, 1.2) rotate(1.3deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-25 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.2, 1.2) rotate(1.3deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(26) {
+  width: 200px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.052);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 200px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(26) .circle-text {
+  top: -100px;
+  left: -100px;
+  animation: boom-26 800ms infinite;
+  animation-delay: -188ms;
+}
+@-moz-keyframes boom-26 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.21224, 1.21224) rotate(1.272deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-26 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.21224, 1.21224) rotate(1.272deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-26 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.21224, 1.21224) rotate(1.272deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-26 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.21224, 1.21224) rotate(1.272deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(27) {
+  width: 192px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.054);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 192px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(27) .circle-text {
+  top: -104px;
+  left: -104px;
+  animation: boom-27 800ms infinite;
+  animation-delay: -29ms;
+}
+@-moz-keyframes boom-27 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.22496, 1.22496) rotate(-1.866deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-27 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.22496, 1.22496) rotate(-1.866deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-27 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.22496, 1.22496) rotate(-1.866deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-27 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.22496, 1.22496) rotate(-1.866deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(28) {
+  width: 184px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.056);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 184px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(28) .circle-text {
+  top: -108px;
+  left: -108px;
+  animation: boom-28 800ms infinite;
+  animation-delay: -195ms;
+}
+@-moz-keyframes boom-28 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.23816, 1.23816) rotate(1.216deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-28 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.23816, 1.23816) rotate(1.216deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-28 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.23816, 1.23816) rotate(1.216deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-28 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.23816, 1.23816) rotate(1.216deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(29) {
+  width: 176px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.059);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 176px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(29) .circle-text {
+  top: -112px;
+  left: -112px;
+  animation: boom-29 800ms infinite;
+  animation-delay: -35ms;
+}
+@-moz-keyframes boom-29 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.25184, 1.25184) rotate(1.782deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-29 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.25184, 1.25184) rotate(1.782deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-29 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.25184, 1.25184) rotate(1.782deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-29 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.25184, 1.25184) rotate(1.782deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(30) {
+  width: 168px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.061);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 168px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(30) .circle-text {
+  top: -116px;
+  left: -116px;
+  animation: boom-30 800ms infinite;
+  animation-delay: -153ms;
+}
+@-moz-keyframes boom-30 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.266, 1.266) rotate(-0.58deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-30 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.266, 1.266) rotate(-0.58deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-30 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.266, 1.266) rotate(-0.58deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-30 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.266, 1.266) rotate(-0.58deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(31) {
+  width: 160px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.063);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 160px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(31) .circle-text {
+  top: -120px;
+  left: -120px;
+  animation: boom-31 800ms infinite;
+  animation-delay: -195ms;
+}
+@-moz-keyframes boom-31 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.28064, 1.28064) rotate(-1.698deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-31 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.28064, 1.28064) rotate(-1.698deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-31 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.28064, 1.28064) rotate(-1.698deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-31 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.28064, 1.28064) rotate(-1.698deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(32) {
+  width: 152px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.066);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 152px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(32) .circle-text {
+  top: -124px;
+  left: -124px;
+  animation: boom-32 800ms infinite;
+  animation-delay: -87ms;
+}
+@-moz-keyframes boom-32 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.29576, 1.29576) rotate(-3.312deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-32 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.29576, 1.29576) rotate(-3.312deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-32 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.29576, 1.29576) rotate(-3.312deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-32 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.29576, 1.29576) rotate(-3.312deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(33) {
+  width: 144px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.069);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 144px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(33) .circle-text {
+  top: -128px;
+  left: -128px;
+  animation: boom-33 800ms infinite;
+  animation-delay: -112ms;
+}
+@-moz-keyframes boom-33 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.31136, 1.31136) rotate(2.69deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-33 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.31136, 1.31136) rotate(2.69deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-33 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.31136, 1.31136) rotate(2.69deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-33 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.31136, 1.31136) rotate(2.69deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(34) {
+  width: 136px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.071);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 136px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(34) .circle-text {
+  top: -132px;
+  left: -132px;
+  animation: boom-34 800ms infinite;
+  animation-delay: -86ms;
+}
+@-moz-keyframes boom-34 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.32744, 1.32744) rotate(-3.144deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-34 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.32744, 1.32744) rotate(-3.144deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-34 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.32744, 1.32744) rotate(-3.144deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-34 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.32744, 1.32744) rotate(-3.144deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(35) {
+  width: 128px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.074);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 128px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(35) .circle-text {
+  top: -136px;
+  left: -136px;
+  animation: boom-35 800ms infinite;
+  animation-delay: -276ms;
+}
+@-moz-keyframes boom-35 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.344, 1.344) rotate(1.53deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-35 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.344, 1.344) rotate(1.53deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-35 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.344, 1.344) rotate(1.53deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-35 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.344, 1.344) rotate(1.53deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(36) {
+  width: 120px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.077);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 120px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(36) .circle-text {
+  top: -140px;
+  left: -140px;
+  animation: boom-36 800ms infinite;
+  animation-delay: -265ms;
+}
+@-moz-keyframes boom-36 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.36104, 1.36104) rotate(2.976deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-36 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.36104, 1.36104) rotate(2.976deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-36 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.36104, 1.36104) rotate(2.976deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-36 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.36104, 1.36104) rotate(2.976deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(37) {
+  width: 112px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.08);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 112px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(37) .circle-text {
+  top: -144px;
+  left: -144px;
+  animation: boom-37 800ms infinite;
+  animation-delay: -250ms;
+}
+@-moz-keyframes boom-37 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.37856, 1.37856) rotate(-0.964deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-37 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.37856, 1.37856) rotate(-0.964deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-37 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.37856, 1.37856) rotate(-0.964deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-37 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.37856, 1.37856) rotate(-0.964deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(38) {
+  width: 104px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.083);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 104px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(38) .circle-text {
+  top: -148px;
+  left: -148px;
+  animation: boom-38 800ms infinite;
+  animation-delay: -170ms;
+}
+@-moz-keyframes boom-38 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.39656, 1.39656) rotate(2.808deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-38 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.39656, 1.39656) rotate(2.808deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-38 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.39656, 1.39656) rotate(2.808deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-38 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.39656, 1.39656) rotate(2.808deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(39) {
+  width: 96px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.086);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 96px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(39) .circle-text {
+  top: -152px;
+  left: -152px;
+  animation: boom-39 800ms infinite;
+  animation-delay: -250ms;
+}
+@-moz-keyframes boom-39 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.41504, 1.41504) rotate(2.27deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-39 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.41504, 1.41504) rotate(2.27deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-39 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.41504, 1.41504) rotate(2.27deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-39 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.41504, 1.41504) rotate(2.27deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(40) {
+  width: 88px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.089);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 88px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(40) .circle-text {
+  top: -156px;
+  left: -156px;
+  animation: boom-40 800ms infinite;
+  animation-delay: -140ms;
+}
+@-moz-keyframes boom-40 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.434, 1.434) rotate(0.88deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-40 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.434, 1.434) rotate(0.88deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-40 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.434, 1.434) rotate(0.88deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-40 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.434, 1.434) rotate(0.88deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(41) {
+  width: 80px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.092);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 80px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(41) .circle-text {
+  top: -160px;
+  left: -160px;
+  animation: boom-41 800ms infinite;
+  animation-delay: -131ms;
+}
+@-moz-keyframes boom-41 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.45344, 1.45344) rotate(0.426deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-41 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.45344, 1.45344) rotate(0.426deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-41 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.45344, 1.45344) rotate(0.426deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-41 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.45344, 1.45344) rotate(0.426deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(42) {
+  width: 72px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.096);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 72px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(42) .circle-text {
+  top: -164px;
+  left: -164px;
+  animation: boom-42 800ms infinite;
+  animation-delay: -263ms;
+}
+@-moz-keyframes boom-42 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.47336, 1.47336) rotate(-0.412deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-42 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.47336, 1.47336) rotate(-0.412deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-42 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.47336, 1.47336) rotate(-0.412deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-42 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.47336, 1.47336) rotate(-0.412deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(43) {
+  width: 64px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.099);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 64px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(43) .circle-text {
+  top: -168px;
+  left: -168px;
+  animation: boom-43 800ms infinite;
+  animation-delay: -222ms;
+}
+@-moz-keyframes boom-43 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.49376, 1.49376) rotate(0deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-43 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.49376, 1.49376) rotate(0deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-43 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.49376, 1.49376) rotate(0deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-43 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.49376, 1.49376) rotate(0deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(44) {
+  width: 56px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.102);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 56px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(44) .circle-text {
+  top: -172px;
+  left: -172px;
+  animation: boom-44 800ms infinite;
+  animation-delay: -337ms;
+}
+@-moz-keyframes boom-44 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.51464, 1.51464) rotate(-0.384deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-44 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.51464, 1.51464) rotate(-0.384deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-44 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.51464, 1.51464) rotate(-0.384deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-44 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.51464, 1.51464) rotate(-0.384deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(45) {
+  width: 48px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.106);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 48px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(45) .circle-text {
+  top: -176px;
+  left: -176px;
+  animation: boom-45 800ms infinite;
+  animation-delay: -279ms;
+}
+@-moz-keyframes boom-45 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.536, 1.536) rotate(-0.74deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-45 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.536, 1.536) rotate(-0.74deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-45 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.536, 1.536) rotate(-0.74deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-45 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.536, 1.536) rotate(-0.74deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(46) {
+  width: 40px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.11);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 40px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(46) .circle-text {
+  top: -180px;
+  left: -180px;
+  animation: boom-46 800ms infinite;
+  animation-delay: -310ms;
+}
+@-moz-keyframes boom-46 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.55784, 1.55784) rotate(-0.712deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-46 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.55784, 1.55784) rotate(-0.712deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-46 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.55784, 1.55784) rotate(-0.712deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-46 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.55784, 1.55784) rotate(-0.712deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(47) {
+  width: 32px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.113);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 32px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(47) .circle-text {
+  top: -184px;
+  left: -184px;
+  animation: boom-47 800ms infinite;
+  animation-delay: -272ms;
+}
+@-moz-keyframes boom-47 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.58016, 1.58016) rotate(-2.394deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-47 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.58016, 1.58016) rotate(-2.394deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-47 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.58016, 1.58016) rotate(-2.394deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-47 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.58016, 1.58016) rotate(-2.394deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(48) {
+  width: 24px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.117);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 24px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(48) .circle-text {
+  top: -188px;
+  left: -188px;
+  animation: boom-48 800ms infinite;
+  animation-delay: -289ms;
+}
+@-moz-keyframes boom-48 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.60296, 1.60296) rotate(0deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-48 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.60296, 1.60296) rotate(0deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-48 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.60296, 1.60296) rotate(0deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-48 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.60296, 1.60296) rotate(0deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(49) {
+  width: 16px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.121);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 16px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(49) .circle-text {
+  top: -192px;
+  left: -192px;
+  animation: boom-49 800ms infinite;
+  animation-delay: -325ms;
+}
+@-moz-keyframes boom-49 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.62624, 1.62624) rotate(-1.884deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-49 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.62624, 1.62624) rotate(-1.884deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-49 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.62624, 1.62624) rotate(-1.884deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-49 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.62624, 1.62624) rotate(-1.884deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+.circle:nth-child(50) {
+  width: 8px;
+  border: 1px solid #000;
+  box-shadow: 0 0 1px 1px #000, 0 0 0 2px rgba(255,255,255,0.125);
+  border-left-color: rgba(255,255,255,0);
+  border-right-color: rgba(255,255,255,0);
+  height: 8px;
+  line-height: 400px;
+  text-align: center;
+}
+.circle:nth-child(50) .circle-text {
+  top: -196px;
+  left: -196px;
+  animation: boom-50 800ms infinite;
+  animation-delay: -296ms;
+}
+@-moz-keyframes boom-50 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.65, 1.65) rotate(-1.8deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes boom-50 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.65, 1.65) rotate(-1.8deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@-o-keyframes boom-50 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.65, 1.65) rotate(-1.8deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes boom-50 {
+  0% {
+    animation-timing-function: ease-out;
+    transform: scale(1, 1);
+  }
+  2% {
+    animation-timing-function: ease-in;
+    transform: scale(1.65, 1.65) rotate(-1.8deg);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+}
