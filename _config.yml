@@ -17,12 +17,15 @@ email: acemirsm@gmail.com
 description:
   en: Personal Portfolio of Acemir Sousa Mendes, Designer and Developer of interactive products.
   pt: Portfólio Pessoal de Acemir Sousa Mendes, Designer e Desenvolvedor de produtos interativos.
+keywords:
+  en: acemir, design, designer, develop, developer, development, interactive, products, game, web
+  pt: acemir, design, designer, desenvlvedor, desenvolvimento, interativo, produtos, jogo, web
 index:
   en:
   pt: pt/
 feed:
-  en: /feed.xml
-  pt: /rss.xml
+  en: /feed-en.xml
+  pt: /feed-pt.xml
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://acemir.me" # the base hostname & protocol for your site
 twitter_username: acemir
