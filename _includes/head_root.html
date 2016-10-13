@@ -1,0 +1,141 @@
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>{% if page.title %}{{ page.title | escape }} &ndash; {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="cleartype" content="on">
+
+  <!-- iPad and iPad mini (with @2× display) iOS ≥ 8 -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/touch/apple-touch-icon-180x180.png' | prepend: site.baseurl }}">
+  <!-- iPad 3+ (with @2× display) iOS ≥ 7 -->
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ '/assets/img/touch/apple-touch-icon-152x152.png' | prepend: site.baseurl }}">
+  <!-- iPad (with @2× display) iOS ≤ 6 -->
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ '/assets/img/touch/apple-touch-icon-144x144.png' | prepend: site.baseurl }}">
+  <!-- iPhone (with @2× and @3 display) iOS ≥ 7 -->
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ '/assets/img/touch/apple-touch-icon-120x120.png' | prepend: site.baseurl }}">
+  <!-- iPhone (with @2× display) iOS ≤ 6 -->
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ '/assets/img/touch/apple-touch-icon-114x114.png' | prepend: site.baseurl }}">
+  <!-- iPad mini and the first- and second-generation iPad (@1× display) on iOS ≥ 7 -->
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ '/assets/img/touch/apple-touch-icon-76x76.png' | prepend: site.baseurl }}">
+  <!-- iPad mini and the first- and second-generation iPad (@1× display) on iOS ≤ 6 -->
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ '/assets/img/touch/apple-touch-icon-72x72.png' | prepend: site.baseurl }}">
+  <!-- Android Stock Browser and non-Retina iPhone and iPod Touch -->
+  <link rel="apple-touch-icon" href="{{ '/assets/img/touch/apple-touch-icon-57x57.png' | prepend: site.baseurl }}">
+  <!-- Fallback for everything else -->
+  <link rel="icon" href="{{ '/favicon.png' | prepend: site.baseurl }}">
+  <!--[if IE]><link rel="shortcut icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}" type="image/vnd.microsoft.icon" /><![endif]-->
+
+  <!--
+      Chrome 31+ has home screen icon 192×192 (the recommended size for multiple resolutions).
+      If it’s not defined on that size it will take 128×128.
+  -->
+  <link rel="icon" sizes="192x192" href="{{ '/assets/img/touch/touch-icon-192x192.png' | prepend: site.baseurl }}">
+  <link rel="icon" sizes="128x128" href="{{ '/assets/img/touch/touch-icon-128x128.png' | prepend: site.baseurl }}">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#a0a7ab">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="{{ '/assets/img/touch/apple-touch-icon-144x144.png' | prepend: site.baseurl }}">
+  <meta name="msapplication-TileColor" content="#121212">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#a0a7ab">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!-- <meta name="apple-mobile-web-app-title" content=""> -->
+
+  <!-- STARTUP IMAGES -->
+
+  <!-- iPad retina portrait startup image -->
+  <link href="https://placehold.it/1536x2008"
+        media="(device-width: 768px) and (device-height: 1024px)
+               and (-webkit-device-pixel-ratio: 2)
+               and (orientation: portrait)"
+        rel="apple-touch-startup-image">
+
+  <!-- iPad retina landscape startup image -->
+  <link href="https://placehold.it/1496x2048"
+        media="(device-width: 768px) and (device-height: 1024px)
+               and (-webkit-device-pixel-ratio: 2)
+               and (orientation: landscape)"
+        rel="apple-touch-startup-image">
+
+  <!-- iPad non-retina portrait startup image -->
+  <link href="https://placehold.it/768x1004"
+        media="(device-width: 768px) and (device-height: 1024px)
+               and (-webkit-device-pixel-ratio: 1)
+               and (orientation: portrait)"
+        rel="apple-touch-startup-image">
+
+  <!-- iPad non-retina landscape startup image -->
+  <link href="https://placehold.it/748x1024"
+        media="(device-width: 768px) and (device-height: 1024px)
+               and (-webkit-device-pixel-ratio: 1)
+               and (orientation: landscape)"
+        rel="apple-touch-startup-image">
+
+  <!-- iPhone 6 Plus portrait startup image -->
+  <link href="https://placehold.it/1242x2148"
+        media="(device-width: 414px) and (device-height: 736px)
+               and (-webkit-device-pixel-ratio: 3)
+               and (orientation: portrait)"
+        rel="apple-touch-startup-image">
+
+  <!-- iPhone 6 Plus landscape startup image -->
+  <link href="https://placehold.it/1182x2208"
+        media="(device-width: 414px) and (device-height: 736px)
+               and (-webkit-device-pixel-ratio: 3)
+               and (orientation: landscape)"
+        rel="apple-touch-startup-image">
+
+  <!-- iPhone 6 startup image -->
+  <link href="https://placehold.it/750x1294"
+        media="(device-width: 375px) and (device-height: 667px)
+               and (-webkit-device-pixel-ratio: 2)"
+        rel="apple-touch-startup-image">
+
+  <!-- iPhone 5 startup image -->
+  <link href="https://placehold.it/640x1096"
+        media="(device-width: 320px) and (device-height: 568px)
+               and (-webkit-device-pixel-ratio: 2)"
+        rel="apple-touch-startup-image">
+
+  <!-- iPhone < 5 retina startup image -->
+  <link href="https://placehold.it/640x920"
+        media="(device-width: 320px) and (device-height: 480px)
+               and (-webkit-device-pixel-ratio: 2)"
+        rel="apple-touch-startup-image">
+
+  <!-- iPhone < 5 non-retina startup image -->
+  <link href="https://placehold.it/320x460"
+        media="(device-width: 320px) and (device-height: 480px)
+               and (-webkit-device-pixel-ratio: 1)"
+        rel="apple-touch-startup-image">
+
+  <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+  <!--
+  <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+  -->
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  
+  <!-- LANGUAGES -->
+  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
+  <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
+  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
+  <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
+  
+  <!-- FEED -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/root.css' | prepend: site.baseurl }}">

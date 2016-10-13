@@ -1,0 +1,83 @@
+---
+layout: null
+---
+
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    {% include head_root.html %}
+    <link rel="stylesheet" href="{{ '/assets/css/intern.css' | prepend: site.baseurl }}">
+  </head>
+
+  <body>
+    <header class="main-header">
+      <h1><span>{{ site.title | escape }}</span></h1>
+      <h2><span>PORTFOLIO OF ACEMIR SOUSA MENDES</span></h2>
+    </header>
+
+    <nav class="nav-lang">
+      <ul>
+        {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+        {% for post in posts %}<li {% if page.url == post.url %}class="current"{% endif %}><a href="{{ post.url }}">{{ post.lang | upcase }}</a></li>{% endfor %}
+
+        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for node in pages %}<li {% if page.url == node.url %}class="current"{% endif %}><a href="{{ node.url }}" class="{{ node.lang }}">{{ node.lang | upcase }}</a></li>{% endfor %}
+      </ul>
+    </nav>
+
+    <div id="menu" class="menu-trigger"></div>
+    <a href="#menu" class="menu"><span><span>Menu</span></span></a>
+
+    <main>
+      <section id="articles" class="sec sec-posts">
+        <div class="sec-parent">
+          <header class="sec-header">
+            <nav>
+              <ul>
+                <li>
+                  <a href="{{ "/#start" | prepend: site.baseurl }}">
+                    <span class="navtxt"><span>ST</span><span hidden>A</span><span>RT</span></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="{{ "/#profile" | prepend: site.baseurl }}">
+                    <span class="navtxt"><span>PR</span><span hidden>O</span><span>F</span><span hidden>I</span><span>L</span><span hidden>E</span></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="{{ "/#projects" | prepend: site.baseurl }}">
+                    <span class="navtxt"><span>PR</span><span hidden>O</span><span>J</span><span hidden>E</span><span>C</span><span hidden>TS</span></span>
+                  </a>
+                </li>
+                <li class="current">
+                  <a href="{{ "/#journal" | prepend: site.baseurl }}">
+                    <!-- <span class="glitch" data-text="JOURNAL"> -->
+                      <span class="navtxt"><span>J</span><span hidden>OU</span><span>RN</span><span hidden>A</span><span>L</span></span>
+                    <!-- </span> -->
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+        </div>
+        <article>
+          <div class="wrap">
+            <section>
+              {% if page.figure %}{% include figure/{{page.figure}}.html %}{% endif %}
+              <div class="sec-section">
+                <header>
+                  <h1>{{ page.tags }}</h1>
+                  <h2>{{ page.title }}</h2>
+                  <h3>{{ page.date | date: "%b %-d, %Y" }}</h3>
+                </header>
+                <div class="sec-text">
+                  {{ content }}
+                </div>
+              </div>
+            </section>
+          </div>
+        </article>
+      </section>
+    </main>
+    {% include footer_root.html %}
+    {% include scripts_root.html %}

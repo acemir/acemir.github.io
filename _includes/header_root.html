@@ -1,0 +1,20 @@
+<header class="main-header">
+  <h1><span>{{ site.title | escape }}</span></h1>
+  <h2><span>{{ site.subtitle[page.lang] }}</span></h2>
+</header>
+
+<nav class="nav-lang">
+  <ul>
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+    {% for post in posts %}<li {% if page.url == post.url %}class="current"{% endif %}><a href="{{ post.url }}" class="{{ node.lang }}" title="{{ site.langname[page.lang] | upcase }}">{{ post.lang | upcase }}</a></li>{% endfor %}
+
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% for node in pages %}<li {% if page.url == node.url %}class="current"{% endif %}><a href="{{ node.url }}" class="{{ node.lang }}" title="{{ site.langname[page.lang] | upcase }}">{{ node.lang | upcase }}</a></li>{% endfor %}
+  </ul>
+</nav>
+
+<div id="menu" class="menu-trigger"></div>
+<a href="#menu" class="menu"><span><span></span></span></a>
+<div id="menu-close" class="menu-close">
+	<a href="#menu-close"></a>
+</div>

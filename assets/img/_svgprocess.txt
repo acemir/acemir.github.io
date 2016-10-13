@@ -1,0 +1,7 @@
+1 - Pass image through Halftone Newspaper Effect with SVG Filters, save resulting svg text at the same folder
+
+2 - Open in Photoshop and export to PNG
+
+3 - Pass image through PixelsToSvg and download SVG
+
+4 - Optimize svg through svgo or svgomg

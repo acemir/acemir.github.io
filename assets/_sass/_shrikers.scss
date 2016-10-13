@@ -1,0 +1,334 @@
+.shrinkers {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.wrapper {
+  width: 1215px;
+  height: 999px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  // -webkit-transform: translate(-50%, 0);
+  // -moz-transform: translate(-50%, 0);
+  // -o-transform: translate(-50%, 0);
+  // -ms-transform: translate(-50%, 0);
+  // transform: translate(-50%, 0);
+  transform: rotate(180deg);
+  transform-origin: 25% 0;
+}
+.line {
+  border: 1px solid transparent;
+  position: absolute;
+  width: 999px;
+  height: 216px;
+  -webkit-transform-origin: bottom left;
+  -moz-transform-origin: bottom left;
+  -o-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+}
+.line:nth-last-of-type(1) {
+  -webkit-transform: rotate(-120deg);
+  -moz-transform: rotate(-120deg);
+  -o-transform: rotate(-120deg);
+  -ms-transform: rotate(-120deg);
+  transform: rotate(-120deg);
+  -webkit-transform-origin: bottom left;
+  -moz-transform-origin: bottom left;
+  -o-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+  left: 1248px;
+  bottom: -83px;
+}
+.line:nth-last-of-type(2) {
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+  -webkit-transform-origin: bottom-left;
+  -moz-transform-origin: bottom-left;
+  -o-transform-origin: bottom-left;
+  -ms-transform-origin: bottom-left;
+  transform-origin: bottom-left;
+  left: 624px;
+  top: -217px;
+}
+.line:nth-last-of-type(3) {
+  top: 865px;
+  left: 0;
+}
+.triangle:nth-of-type(1):before {
+  -webkit-animation: tri1 3600ms ease-in infinite;
+  -moz-animation: tri1 3600ms ease-in infinite;
+  -o-animation: tri1 3600ms ease-in infinite;
+  animation: tri1 3600ms ease-in infinite;
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri1{ 0% {-webkit-transform: scale(1.025)} 0% {-webkit-transform: scale(1.025)} 94%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri1{ 0% {-moz-transform: scale(1.025)} 0% {-moz-transform: scale(1.025)} 94%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri1{ 0% {-o-transform: scale(1.025)} 0% {-o-transform: scale(1.025)} 94%, 100% {-o-transform: scale(0)}}
+@keyframes tri1{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 94%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri1{ 0% {-webkit-transform: scale(1.025)} 0% {-webkit-transform: scale(1.025)} 94%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri1{ 0% {-moz-transform: scale(1.025)} 0% {-moz-transform: scale(1.025)} 94%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri1{ 0% {-o-transform: scale(1.025)} 0% {-o-transform: scale(1.025)} 94%, 100% {-o-transform: scale(0)}}
+@keyframes tri1{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 94%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+.triangle:nth-of-type(2):before {
+  -webkit-animation: tri2 3600ms ease-in infinite;
+  -moz-animation: tri2 3600ms ease-in infinite;
+  -o-animation: tri2 3600ms ease-in infinite;
+  animation: tri2 3600ms ease-in infinite;
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri2{ 0% {-webkit-transform: scale(1.025)} 14.285714285714286% {-webkit-transform: scale(1.025)} 95%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri2{ 0% {-moz-transform: scale(1.025)} 14.285714285714286% {-moz-transform: scale(1.025)} 95%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri2{ 0% {-o-transform: scale(1.025)} 14.285714285714286% {-o-transform: scale(1.025)} 95%, 100% {-o-transform: scale(0)}}
+@keyframes tri2{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 14.285714285714286% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 95%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri2{ 0% {-webkit-transform: scale(1.025)} 14.285714285714286% {-webkit-transform: scale(1.025)} 95%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri2{ 0% {-moz-transform: scale(1.025)} 14.285714285714286% {-moz-transform: scale(1.025)} 95%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri2{ 0% {-o-transform: scale(1.025)} 14.285714285714286% {-o-transform: scale(1.025)} 95%, 100% {-o-transform: scale(0)}}
+@keyframes tri2{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 14.285714285714286% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 95%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+.triangle:nth-of-type(3):before {
+  -webkit-animation: tri3 3600ms ease-in infinite;
+  -moz-animation: tri3 3600ms ease-in infinite;
+  -o-animation: tri3 3600ms ease-in infinite;
+  animation: tri3 3600ms ease-in infinite;
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri3{ 0% {-webkit-transform: scale(1.025)} 28.571428571428573% {-webkit-transform: scale(1.025)} 96%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri3{ 0% {-moz-transform: scale(1.025)} 28.571428571428573% {-moz-transform: scale(1.025)} 96%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri3{ 0% {-o-transform: scale(1.025)} 28.571428571428573% {-o-transform: scale(1.025)} 96%, 100% {-o-transform: scale(0)}}
+@keyframes tri3{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 28.571428571428573% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 96%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri3{ 0% {-webkit-transform: scale(1.025)} 28.571428571428573% {-webkit-transform: scale(1.025)} 96%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri3{ 0% {-moz-transform: scale(1.025)} 28.571428571428573% {-moz-transform: scale(1.025)} 96%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri3{ 0% {-o-transform: scale(1.025)} 28.571428571428573% {-o-transform: scale(1.025)} 96%, 100% {-o-transform: scale(0)}}
+@keyframes tri3{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 28.571428571428573% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 96%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+.triangle:nth-of-type(4):before {
+  -webkit-animation: tri4 3600ms ease-in infinite;
+  -moz-animation: tri4 3600ms ease-in infinite;
+  -o-animation: tri4 3600ms ease-in infinite;
+  animation: tri4 3600ms ease-in infinite;
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri4{ 0% {-webkit-transform: scale(1.025)} 42.857142857142854% {-webkit-transform: scale(1.025)} 97%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri4{ 0% {-moz-transform: scale(1.025)} 42.857142857142854% {-moz-transform: scale(1.025)} 97%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri4{ 0% {-o-transform: scale(1.025)} 42.857142857142854% {-o-transform: scale(1.025)} 97%, 100% {-o-transform: scale(0)}}
+@keyframes tri4{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 42.857142857142854% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 97%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri4{ 0% {-webkit-transform: scale(1.025)} 42.857142857142854% {-webkit-transform: scale(1.025)} 97%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri4{ 0% {-moz-transform: scale(1.025)} 42.857142857142854% {-moz-transform: scale(1.025)} 97%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri4{ 0% {-o-transform: scale(1.025)} 42.857142857142854% {-o-transform: scale(1.025)} 97%, 100% {-o-transform: scale(0)}}
+@keyframes tri4{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 42.857142857142854% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 97%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+.triangle:nth-of-type(5):before {
+  -webkit-animation: tri5 3600ms ease-in infinite;
+  -moz-animation: tri5 3600ms ease-in infinite;
+  -o-animation: tri5 3600ms ease-in infinite;
+  animation: tri5 3600ms ease-in infinite;
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri5{ 0% {-webkit-transform: scale(1.025)} 57.142857142857146% {-webkit-transform: scale(1.025)} 98%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri5{ 0% {-moz-transform: scale(1.025)} 57.142857142857146% {-moz-transform: scale(1.025)} 98%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri5{ 0% {-o-transform: scale(1.025)} 57.142857142857146% {-o-transform: scale(1.025)} 98%, 100% {-o-transform: scale(0)}}
+@keyframes tri5{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 57.142857142857146% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 98%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri5{ 0% {-webkit-transform: scale(1.025)} 57.142857142857146% {-webkit-transform: scale(1.025)} 98%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri5{ 0% {-moz-transform: scale(1.025)} 57.142857142857146% {-moz-transform: scale(1.025)} 98%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri5{ 0% {-o-transform: scale(1.025)} 57.142857142857146% {-o-transform: scale(1.025)} 98%, 100% {-o-transform: scale(0)}}
+@keyframes tri5{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 57.142857142857146% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 98%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+.triangle:nth-of-type(6):before {
+  -webkit-animation: tri6 3600ms ease-in infinite;
+  -moz-animation: tri6 3600ms ease-in infinite;
+  -o-animation: tri6 3600ms ease-in infinite;
+  animation: tri6 3600ms ease-in infinite;
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri6{ 0% {-webkit-transform: scale(1.025)} 71.42857142857143% {-webkit-transform: scale(1.025)} 99%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri6{ 0% {-moz-transform: scale(1.025)} 71.42857142857143% {-moz-transform: scale(1.025)} 99%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri6{ 0% {-o-transform: scale(1.025)} 71.42857142857143% {-o-transform: scale(1.025)} 99%, 100% {-o-transform: scale(0)}}
+@keyframes tri6{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 71.42857142857143% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 99%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri6{ 0% {-webkit-transform: scale(1.025)} 71.42857142857143% {-webkit-transform: scale(1.025)} 99%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri6{ 0% {-moz-transform: scale(1.025)} 71.42857142857143% {-moz-transform: scale(1.025)} 99%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri6{ 0% {-o-transform: scale(1.025)} 71.42857142857143% {-o-transform: scale(1.025)} 99%, 100% {-o-transform: scale(0)}}
+@keyframes tri6{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 71.42857142857143% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 99%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+.triangle:nth-of-type(7):before {
+  -webkit-animation: tri7 3600ms ease-in infinite;
+  -moz-animation: tri7 3600ms ease-in infinite;
+  -o-animation: tri7 3600ms ease-in infinite;
+  animation: tri7 3600ms ease-in infinite;
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri7{ 0% {-webkit-transform: scale(1.025)} 85.71428571428571% {-webkit-transform: scale(1.025)} 100%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri7{ 0% {-moz-transform: scale(1.025)} 85.71428571428571% {-moz-transform: scale(1.025)} 100%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri7{ 0% {-o-transform: scale(1.025)} 85.71428571428571% {-o-transform: scale(1.025)} 100%, 100% {-o-transform: scale(0)}}
+@keyframes tri7{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 85.71428571428571% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 100%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri7{ 0% {-webkit-transform: scale(1.025)} 85.71428571428571% {-webkit-transform: scale(1.025)} 100%, 100% {-webkit-transform: scale(0)}}
+@-moz-keyframes tri7{ 0% {-moz-transform: scale(1.025)} 85.71428571428571% {-moz-transform: scale(1.025)} 100%, 100% {-moz-transform: scale(0)}}
+@-o-keyframes tri7{ 0% {-o-transform: scale(1.025)} 85.71428571428571% {-o-transform: scale(1.025)} 100%, 100% {-o-transform: scale(0)}}
+@keyframes tri7{ 0% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 85.71428571428571% {-webkit-transform: scale(1.025);-moz-transform: scale(1.025);-ms-transform: scale(1.025);transform: scale(1.025);} 100%, 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+.triangle {
+  position: absolute;
+  border: 1px solid #4c4c4c;
+  width: 0;
+  height: 0;
+  border: 125px solid transparent;
+  bottom: 0;
+  border-bottom: 216px solid #4c4c4c;
+}
+.triangle:nth-of-type(1) {
+  left: 0px;
+}
+.triangle:nth-of-type(2) {
+  left: 125px;
+}
+.triangle:nth-of-type(3) {
+  left: 250px;
+}
+.triangle:nth-of-type(4) {
+  left: 375px;
+}
+.triangle:nth-of-type(5) {
+  left: 500px;
+}
+.triangle:nth-of-type(6) {
+  left: 624px;
+}
+.triangle:nth-of-type(7) {
+  left: 749px;
+}
+.triangle:nth-child(even) {
+  transform: rotate(180deg);
+  top: 0;
+}
+.triangle:nth-child(1) {
+  animation: none;
+}
+.triangle:before {
+  content: "";
+  position: absolute;
+  background: transparent;
+  width: 0;
+  height: 0;
+  border: 125px solid transparent;
+  border-bottom: 216px solid currentColor;
+  left: -125px;
+  top: -125px;
+  -webkit-transform: scale(0.5);
+  -moz-transform: scale(0.5);
+  -o-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5);
+  -webkit-transform-origin: 50% 75%;
+  -moz-transform-origin: 50% 75%;
+  -o-transform-origin: 50% 75%;
+  -ms-transform-origin: 50% 75%;
+  transform-origin: 50% 75%;
+}
+.line:nth-child(2) .triangle:nth-child(1):before {
+  -webkit-animation: trifirst 3600ms linear infinite;
+  -moz-animation: trifirst 3600ms linear infinite;
+  -o-animation: trifirst 3600ms linear infinite;
+  animation: trifirst 3600ms linear infinite;
+  -webkit-transform-origin: 50% 78.75%;
+  -moz-transform-origin: 50% 78.75%;
+  -o-transform-origin: 50% 78.75%;
+  -ms-transform-origin: 50% 78.75%;
+  transform-origin: 50% 78.75%;
+}
+.pen {
+  width: 1248.75px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  -o-transform-origin: 50% 0;
+  -ms-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-animation: move 3600ms cubic-bezier(0, 0, 0.5, 0.85) infinite;
+  -moz-animation: move 3600ms cubic-bezier(0, 0, 0.5, 0.85) infinite;
+  -o-animation: move 3600ms cubic-bezier(0, 0, 0.5, 0.85) infinite;
+  animation: move 3600ms cubic-bezier(0, 0, 0.5, 0.85) infinite;
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri{ 0% { -webkit-transform: scale(1) } 100% { -webkit-transform: scale(0) }}
+@-moz-keyframes tri{ 0% { -moz-transform: scale(1) } 100% { -moz-transform: scale(0) }}
+@-o-keyframes tri{ 0% { -o-transform: scale(1) } 100% { -o-transform: scale(0) }}
+@keyframes tri{ 0% {-webkit-transform: scale(1);-moz-transform: scale(1);-ms-transform: scale(1);transform: scale(1);} 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes tri{ 0% { -webkit-transform: scale(1) } 100% { -webkit-transform: scale(0) }}
+@-moz-keyframes tri{ 0% { -moz-transform: scale(1) } 100% { -moz-transform: scale(0) }}
+@-o-keyframes tri{ 0% { -o-transform: scale(1) } 100% { -o-transform: scale(0) }}
+@keyframes tri{ 0% {-webkit-transform: scale(1);-moz-transform: scale(1);-ms-transform: scale(1);transform: scale(1);} 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes trifirst{ 0% { -webkit-transform: scale(0.4) } 100% { -webkit-transform: scale(0) }}
+@-moz-keyframes trifirst{ 0% { -moz-transform: scale(0.4) } 100% { -moz-transform: scale(0) }}
+@-o-keyframes trifirst{ 0% { -o-transform: scale(0.4) } 100% { -o-transform: scale(0) }}
+@keyframes trifirst{ 0% {-webkit-transform: scale(0.4);-moz-transform: scale(0.4);-ms-transform: scale(0.4);transform: scale(0.4);} 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes trifirst{ 0% { -webkit-transform: scale(0.4) } 100% { -webkit-transform: scale(0) }}
+@-moz-keyframes trifirst{ 0% { -moz-transform: scale(0.4) } 100% { -moz-transform: scale(0) }}
+@-o-keyframes trifirst{ 0% { -o-transform: scale(0.4) } 100% { -o-transform: scale(0) }}
+@keyframes trifirst{ 0% {-webkit-transform: scale(0.4);-moz-transform: scale(0.4);-ms-transform: scale(0.4);transform: scale(0.4);} 100% {-webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);transform: scale(0);};
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes move{ 0% { -webkit-transform: scale(1) } 100% { -webkit-transform: scale(0.2) }}
+@-moz-keyframes move{ 0% { -moz-transform: scale(1) } 100% { -moz-transform: scale(0.2) }}
+@-o-keyframes move{ 0% { -o-transform: scale(1) } 100% { -o-transform: scale(0.2) }}
+@keyframes move{ 0% {-webkit-transform: scale(1);-moz-transform: scale(1);-ms-transform: scale(1);transform: scale(1);} 100% {-webkit-transform: scale(0.2);-moz-transform: scale(0.2);-ms-transform: scale(0.2);transform: scale(0.2);};
+}
+lesshat-selector {
+  -lh-property: 0; } 
+@-webkit-keyframes move{ 0% { -webkit-transform: scale(1) } 100% { -webkit-transform: scale(0.2) }}
+@-moz-keyframes move{ 0% { -moz-transform: scale(1) } 100% { -moz-transform: scale(0.2) }}
+@-o-keyframes move{ 0% { -o-transform: scale(1) } 100% { -o-transform: scale(0.2) }}
+@keyframes move{ 0% {-webkit-transform: scale(1);-moz-transform: scale(1);-ms-transform: scale(1);transform: scale(1);} 100% {-webkit-transform: scale(0.2);-moz-transform: scale(0.2);-ms-transform: scale(0.2);transform: scale(0.2);};
+}

@@ -1,0 +1,173 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+html {
+  background: #ececed;
+}
+
+body {
+  height: auto;
+}
+
+.nav-lang {
+  right: auto;
+  left: 0;
+  padding-left: 3.125em;
+  bottom: .925em;
+}
+
+.main-footer {
+  left: 15em;
+  right: auto;
+  width: 15em;
+}
+
+.sec-parent{
+  clip: auto;
+  &:before {
+    content:'';
+    position: fixed;
+    display: block;
+    width: 28.5em;
+    top: 0; bottom: 0;
+    left: 0;
+    background: #121212;
+  }
+}
+
+article {
+  height: auto;
+  padding: 1.25em 0 3.25em 28.5em;
+
+  .wrap {
+    display: block;
+  }
+
+  section {
+    display: block;
+    text-align: left;
+    color: #000;
+  }
+
+  h2 {
+    margin-bottom: 1em;
+  }
+
+  h3 {
+  	margin: .3em 0 .6em
+  }
+
+  p {
+    max-width: none;
+    margin: .6em 0;
+    text-align: justify;
+    strong {
+      color: inherit;
+    }
+    a {
+      color: inherit;
+      &:before {
+        width: auto;
+        right: 0;
+        background:#000;
+      }
+    }
+  }
+}
+.sec-section {
+  // padding: 0 3.125em;
+  padding: 2.5em 3.125em;
+  &:before {
+    display: none;
+  }
+}
+.sec-text {
+  width: 100%;
+  max-width: none;
+  z-index: 1;
+}
+
+.sec-posts {
+	article {
+    max-height: none;
+    padding-bottom: 0;
+    header {
+      position: static;
+      padding: 0;
+    }
+		section {
+			> figure {
+				display: block;
+	      position: relative;
+	      height: auto;
+	      padding: 0 1.25em;
+        margin-bottom: -2.75em;
+
+	      .pic {
+	        padding-top: 42.85%;
+	      }
+	    }
+		}
+    a {
+      display: inline-block;
+      margin: 0;
+    }
+	}
+	.sec-section {
+		padding-bottom: 2.75em;
+	}
+  .sec-text {
+    text-align: left;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 773px) {
+
+  .nav-lang {
+    padding-left: .833em;
+  }
+  .main-header {
+    h2 {
+      display: none;
+    }
+  }
+  .main-footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1.25em .833em;
+    background: #121212;
+    width: auto;
+    z-index: 1;
+  }
+  .sec-parent {
+    &:before {
+      width: auto;
+      left: 0; right: 0;
+      height: 6em;
+      z-index: 2;
+    }
+  }
+  article {
+    padding: 6em 0 0 0;
+  }
+
+  .sec-posts {
+    article {
+      padding-top: 6em;
+      section {
+        > figure {
+          padding: 0;
+        }
+      }
+    }
+    .sec-section {
+      margin-top: -2.75em;
+      padding: 0 .833em 6em;
+    }
+  }
+}
+
+@import "syntax-highlighting";

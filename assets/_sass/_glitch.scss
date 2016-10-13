@@ -1,0 +1,86 @@
+@import "compass/css3";
+
+.glitch{
+  position:relative;
+  display: block;
+  color:white;
+  margin:0 auto;
+  // text-shadow: 0px 0px 1px #eee, 1px 1px 1px teal, -1px -1px 1px mix(black,red,50);
+
+  &:after,
+  &:before {
+    content:attr(data-text);
+    position:absolute;
+    color:white;
+    background:#121212;
+    overflow:hidden;
+    clip:rect(0,900px,0,0);
+    z-index: 1;
+    padding-right: 3px;
+  }
+
+  &:after {
+    // left: 2px;
+    left:0.0193em;
+    // text-shadow:-1px 0 red;
+    text-shadow:-1px -1px 1px mix(black,red,50),-2px -1px 1px mix(black,red,50);
+    // text-shadow: -0.0385em 0 0 mix(black,red,50), 0.01em 0 0 #121212;
+    top:0;
+    animation:noise-anim 6s infinite linear;
+  }
+
+  &:before {
+    // left: -2px;
+    left:-0.0193em;
+    // text-shadow:1px 0 blue; 
+    text-shadow: 1px 1px 1px teal, 2px 1px 1px teal; 
+    // text-shadow: 0.0385em 0 0 mix(black,cyan,50), -0.01em 0 0 #121212; 
+    top:0;
+    animation:noise-anim-2 6s infinite linear;
+  }
+}
+@keyframes noise-anim{
+  $steps:20;
+  #{percentage(0),percentage(.499)}{
+    clip:rect(0,9999px,0,0);
+  }
+  @for $i from 0 through $steps{
+    #{percentage(.5 + $i*(.5/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+
+@keyframes noise-anim-2{
+  $steps:20;
+  #{percentage(0),percentage(.499)}{
+    clip:rect(0,9999px,0,0);
+  }
+  @for $i from 0 through $steps{
+    #{percentage(.5 + $i*(.5/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+
+.sec-header {
+  .glitch{
+    &:after,
+    &:before {
+      padding-top: .15em;
+      padding-left: .183em;
+    }
+  }
+}
+
+@media screen and (max-width: 773px) {
+  .sec-header {
+    .glitch{
+      &:after,
+      &:before{
+        padding-left: 0;
+        padding-right: .19em;
+      }
+    }
+  }
+}

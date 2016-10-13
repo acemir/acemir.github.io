@@ -1,0 +1,40 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: ACEMIR • DESIGN + DEVELOP
+subtitle:
+  en: Portfolio of Acemir Sousa Mendes
+  pt: Portfólio de Acemir Sousa Mendes
+langname:
+  en: english
+  pt: português
+email: acemirsm@gmail.com
+description:
+  en: Personal Portfolio of Acemir Sousa Mendes, Designer and Developer of interactive products.
+  pt: Portfólio Pessoal de Acemir Sousa Mendes, Designer e Desenvolvedor de produtos interativos.
+index:
+  en:
+  pt: pt/
+feed:
+  en: /feed.xml
+  pt: /rss.xml
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://acemir.me" # the base hostname & protocol for your site
+twitter_username: acemir
+github_username:  acemir
+permalink: /:categories/:title/
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+compress_html:
+  clippings: all
+  comments:  ["<!-- ", " -->"]
+  endings:   all
+
+# Build settings
+markdown: kramdown
