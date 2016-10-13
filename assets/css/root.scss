@@ -989,9 +989,10 @@ figure {
 
     nav {
       display: block;
-      width: 100%;
+      // width: 100%;
       height: .75em;
       font-size: 4.375em;
+      margin-right: .625em;
 
       ul {
         padding: .0625em 0;
@@ -1019,7 +1020,7 @@ figure {
       padding-right: 0;
       margin-left: 0;
       // margin-right: -.286em;
-      margin-right: .625em;
+      // margin-right: .625em;
     }
 
     .navtxt:before {
@@ -1217,6 +1218,9 @@ figure {
         display: none;
       }
     }
+    .sec-text {
+      padding-left: 0;
+    }
   }
 
   .sec-404 {
@@ -1251,15 +1255,16 @@ figure {
   .sec-header {
     nav {
       font-size: 3em;
+      margin-right: .875em;
 
       ul {
         padding: .25em 0;
       }
     }
 
-    .navtxt {
-      margin-right: .875em;
-    }
+    // .navtxt {
+    //   margin-right: .875em;
+    // }
   }
 
   article {
