@@ -1,12 +1,11 @@
 ---
-layout: compress
+layout:
 ---
 
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" itemscope itemtype="http://schema.org/WebSite">
   <head>
     {% include head_root.html %}
-    <link rel="stylesheet" href="{{ '/assets/css/intern.css' | prepend: site.baseurl }}">
   </head>
 
   <body>
@@ -83,4 +82,6 @@ layout: compress
       </section>
     </main>
     {% include footer_root.html %}
+    <link rel="preload" href="{{ '/assets/css/intern.css' | prepend: site.baseurl }}" as="style" onload="this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ '/assets/css/intern.css' | prepend: site.baseurl }}"></noscript>
     {% include scripts_root.html %}

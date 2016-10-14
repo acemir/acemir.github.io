@@ -140,4 +140,6 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ '/assets/css/root.css' | prepend: site.baseurl }}">
+  <style>html{background:#121212}body{opacity: 0;transition:opacity .3s linear;}</style>
+  <link rel="preload" href="{{ '/assets/css/root.css' | prepend: site.baseurl }}" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ '/assets/css/root.css' | prepend: site.baseurl }}"></noscript>
