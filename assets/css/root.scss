@@ -1202,6 +1202,9 @@ figure {
     }
     article {
       padding-top: 1.25em;
+      header {
+        padding-top: 0;
+      }
     }
     .atc-recent {
       padding-top: 6em;
