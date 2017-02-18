@@ -793,6 +793,9 @@ figure {
     min-height: 0;
     max-height: 75em;
     padding-bottom: 4.938em;
+    header {
+      padding-top: 3.75em;
+    }
     a {
       display: block;
       margin-top: 2em;
@@ -813,9 +816,6 @@ figure {
       color: $baser-color;
       text-transform: uppercase;
     }
-  }
-  header {
-    padding-top: 3.75em;
   }
   section {
     > figure {
