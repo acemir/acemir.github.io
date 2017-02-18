@@ -38,7 +38,7 @@ lang: en
     </div>
     <article>
       <div class="wrap">
-        <header>
+        <header class="atc-header">
           <h1>WELCOME</h1>
         </header>
         <!-- {% include figure/css_atom.html %} -->
@@ -85,7 +85,7 @@ lang: en
     </div>
     <article>
       <div class="wrap">
-        <header>
+        <header class="atc-header">
           <h1>ABOUT ME</h1>
         </header>
         <section>
@@ -150,7 +150,7 @@ lang: en
     </div>
     <article id="projects-design">
       <div class="wrap">
-        <header>
+        <header class="atc-header">
           <h1>DESIGN</h1>
         </header>
         <section>
@@ -174,7 +174,7 @@ lang: en
     </article>
     <article id="projects-development">
       <div class="wrap">
-        <header>
+        <header class="atc-header">
           <h1>DEVELOPMENT</h1>
         </header>
         <section>
@@ -236,7 +236,7 @@ lang: en
           {% if post.figure %}{% include figure/{{post.figure}}.html %}{% endif %}
           <div class="sec-section">
             <div class="sec-text">
-              <h1>RECENT</h1>
+              <header><h1>RECENT</h1></header>
               <a href="{{ post.url }}">
                 <h2>{{ post.title }}</h2>
                 <h3>{{ post.date | date: "%b %-d, %Y" }}</h3>

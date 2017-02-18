@@ -123,7 +123,7 @@ body {
   position: fixed;
   bottom: 2.5em;
   right: 0;
-  z-index: 10;
+  z-index: 11;
   color: $baser-color;
   text-align: right;
   padding-right: 3.125em;
@@ -154,12 +154,12 @@ body {
 
 .main-footer {
   position: fixed;
-  bottom: 1.25em;
+  bottom: 0;
   right: 0;
   z-index: 10;
   color: $baser-color;
   text-align: right;
-  padding-right: 3.125em;
+  padding: 2.5em 3.125em 1.25em 1.25em;
   p {
     display: block;
     margin: 0;
@@ -435,7 +435,7 @@ article {
     height: 100%;
   }
 
-  header {
+  .atc-header {
     position: absolute;
     top: 0; right: 0;
     padding-top: 3.75em;
@@ -745,7 +745,7 @@ figure {
     }
     a {
       display: block;
-      margin-top: 2em;
+      margin-top: 5em;
       z-index: 2;
       &:before {
         width: 2em;
@@ -777,7 +777,7 @@ figure {
     position: static;
     // padding-top: 25em;
     // padding-top: 40.25em;
-    padding-top: calc(100vh - 12.175em);
+    padding-top: calc(100vh - 15.175em);
     padding-bottom: 4.625em;
     text-align: right;
   }
@@ -853,7 +853,7 @@ figure {
 .sec-404 {
   article {
     padding: 0;
-    header {
+    .atc-header {
       padding-top: 3.75em;
     }
     h2 {
@@ -1094,7 +1094,7 @@ figure {
       min-height: 0;
     }
     
-    header {
+    .atc-header {
       left: 0; right: 0;
       text-align: center;
       padding: 0 0.833em;
@@ -1131,7 +1131,7 @@ figure {
   .sec-about {
     height: auto;
     article {
-      header {
+      .atc-header {
         text-align: left;
       }
     }
@@ -1177,7 +1177,7 @@ figure {
       }
     }
     article {
-      header {
+      .atc-header {
         text-align: right;
       }
     }
@@ -1229,7 +1229,7 @@ figure {
 
   .sec-404 {
     article {
-      header {
+      .atc-header {
         padding-top: 6em;
       }
     }

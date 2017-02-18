@@ -38,7 +38,7 @@ lang: pt
     </div>
     <article>
       <div class="wrap">
-        <header>
+        <header class="atc-header">
           <h1>BEM-VINDO</h1>
         </header>
         <section>
@@ -84,7 +84,7 @@ lang: pt
     </div>
     <article>
       <div class="wrap">
-        <header>
+        <header class="atc-header">
           <h1>SOBRE MIM</h1>
         </header>
         <section>
@@ -149,7 +149,7 @@ lang: pt
     </div>
     <article id="projetos-design">
       <div class="wrap">
-        <header>
+        <header class="atc-header">
           <h1>DESIGN</h1>
         </header>
         <section>
@@ -173,7 +173,7 @@ lang: pt
     </article>
     <article id="projetos-desenvolvimento">
       <div class="wrap">
-        <header>
+        <header class="atc-header">
           <h1>DESENVOLVIMENTO</h1>
         </header>
         <section>
@@ -235,7 +235,7 @@ lang: pt
           {% if post.figure %}{% include figure/{{post.figure}}.html %}{% endif %}
           <div class="sec-section">
             <div class="sec-text">
-              <h1>RECENTES</h1>
+              <header><h1>RECENTES</h1></header>
               <a href="{{ post.url }}">
                 <h2>{{ post.title }}</h2>
                 <h3>{{ post.date | date: "%b %-d, %Y" }}</h3>
