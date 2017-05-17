@@ -90,7 +90,7 @@ body {
   
     span {
       display: block;
-      width: 5.25em; height: 7.75em;
+      width: 5.25em; height: 7.875em;
       margin: 1.5em auto;
       overflow: hidden;
       font-size: 1em;
@@ -916,6 +916,12 @@ figure {
 
 @media screen and (max-width: 1439px) {
   html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1365px) {
+  html {
     font-size: 14px;
   }
 }
@@ -925,13 +931,6 @@ figure {
     font-size: 13px;
   }
 }
-
-@media screen and (max-width: 991px) {
-  html {
-    font-size: 12px;
-  }
-}
-
 
 @media screen and (max-width: 991px) {
   html {
