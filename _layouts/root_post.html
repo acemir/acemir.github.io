@@ -3,7 +3,7 @@ layout:
 ---
 
 <!DOCTYPE html>
-<html class="no-js" itemscope itemtype="http://schema.org/WebSite">
+<html class="no-js" itemscope itemtype="http://schema.org/WebSite" lang="{{page.lang}}">
   <head>
     {% include head_root.html %}
   </head>
@@ -70,7 +70,13 @@ layout:
                 <header>
                   <h1>{{ page.tags }}</h1>
                   <h2>{{ page.title }}</h2>
+                  {% if page.lang == 'pt' %}
+                  {% assign months = "Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez" | split: "|" %}
+                  {% assign m = page.date | date: "%-m" | minus: 1 %}
+                  <h3>{{page.date | date: "%d"}} {{months[m]}} {{ page.date | date: "%Y" }}</h3>
+                  {% else %}
                   <h3>{{ page.date | date: "%b %-d, %Y" }}</h3>
+                  {% endif %}
                 </header>
                 <div class="sec-text">
                   {{ content }}

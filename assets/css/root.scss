@@ -616,10 +616,7 @@ figure {
 
 .sec-text {
   position: relative;
-  display: inline-block;
-  // width: 70%;
-  // padding-left: 17.125em;
-  // text-shadow: 1px 1px 1px teal, -1px -1px 1px maroon;
+  display: block;
   z-index: 2;
 }
 
@@ -710,6 +707,24 @@ figure {
     //   color: $foreg-color;
     //   letter-spacing: -.15em;
     // }
+    &:before {
+      content: attr(data-text);
+      position: absolute;
+      color: #121212;
+      z-index: 1;
+      bottom: 0;
+      left: 0;
+      font-size: 100vh;
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 800;
+      letter-spacing: -.075em;
+      line-height: .75em;
+      opacity: 0;
+      -webkit-transform: translate3d(0,25%,0);
+      transform: translate3d(0,25%,0);
+      -webkit-transition: opacity .3s, -webkit-transform .3s;
+      transition: opacity .3s, transform .3s;    
+    }
     .pic {
       position: relative;
       width: 100%;
@@ -755,7 +770,7 @@ figure {
     }
     a {
       display: block;
-      margin-top: 5em;
+      padding-top: 5em;
       z-index: 2;
       &:before {
         width: 2em;
@@ -766,6 +781,11 @@ figure {
         z-index: 3;
         + figure {
           z-index: 2;
+          &:before {
+            opacity: 1;
+            -webkit-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+          }
           .pic {
             opacity: 1;
           }
@@ -793,7 +813,6 @@ figure {
   }
   .sec-text {
     position: static;
-    padding-left: 13em;
   }
 }
 
@@ -853,10 +872,6 @@ figure {
       top: 2.688em; bottom: 0;
       left: 0; right: 0;
     }    
-  }
-  .sec-text {
-    display: block;
-    // padding-left: 13em;
   }
   .atc-recent {
     height: 100vh;
@@ -1186,8 +1201,8 @@ figure {
       margin-top: -32.875em;
       height: 35.25em;
       &:before {
-        font-size: 43.5em;
-        line-height: .725em;
+        font-size: 50vh;
+        line-height: 1em;
       }
     }
     article {
@@ -1197,9 +1212,6 @@ figure {
     }
     .sec-section {
       padding-top: 23em;
-    }
-    .sec-text {
-      padding-left: 0;
     }
   }
 
@@ -1238,9 +1250,6 @@ figure {
       &:before {
         display: none;
       }
-    }
-    .sec-text {
-      padding-left: 0;
     }
   }
 
@@ -1445,15 +1454,3 @@ a.symbol {
     opacity: 0.64981;
   }
 }
-
-// .pic--sk8skull {
-//   &:before {
-//     content: 'Sk8Skull';
-//   }
-// }
-
-// .pic--garupa {
-//   &:before {
-//     content: 'Garupa';
-//   }
-// }
