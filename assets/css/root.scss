@@ -682,13 +682,11 @@ figure {
   figure {
     position: absolute;
     // top: 0; bottom: 0;
-    
+    left: 0; right: 0;
     // height: 49.25em;
     height: calc(100vh - 3em);
     // margin-top: -47.25em;
     margin-top: calc(-100vh + 5em);
-    
-    left: 0; right: 0;
     display: block;
     padding-top: 6.25em;
     padding-bottom: 5.75em;
@@ -713,7 +711,7 @@ figure {
       color: #121212;
       z-index: 1;
       bottom: 0;
-      left: 0;
+      left: .1em;
       font-size: 100vh;
       font-family: 'Work Sans', sans-serif;
       font-weight: 800;
@@ -1201,6 +1199,7 @@ figure {
       margin-top: -32.875em;
       height: 35.25em;
       &:before {
+        left: -.1em;
         font-size: 50vh;
         line-height: 1em;
       }
