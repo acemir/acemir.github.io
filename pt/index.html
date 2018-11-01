@@ -44,7 +44,7 @@ lang: pt
         <section>
           <div class="sec-section">
             <div class="sec-text">
-              <h2>Olá, sou <a href="#profile">Acemir</a>,<br><a href="#projetos" title="Veja projetos de design">Designer</a> &amp; <a href="#projetos" title="Veja projetos de desenvolvimento">Desenvolvedor</a><br>de produtos interativos.</h2>
+              <h2>Olá, sou <a href="#profile" title="Veja meu perfil profissional">Acemir</a>,<br><a href="#projetos" title="Veja projetos de design">Designer</a> &amp; <a href="#projetos" title="Veja projetos de desenvolvimento">Desenvolvedor</a><br>de produtos interativos.</h2>
             </div>
           </div>
         </section>
@@ -100,9 +100,9 @@ lang: pt
           <div class="sec-section">
             <div class="sec-text">
               <h2>Pixel, Tinta & Código.</h2>
-              <p>Sou um <strong>profissional versátil</strong> com mais de <strong>10 anos de experiência</strong>, conhecimento e interesse sempre crescentes em <strong>design digital</strong>, <strong>desenvolvimento de software</strong> e <strong>artes visuais</strong>. Sou capaz de trabalhar nas várias etapas que envolvem a concepção e o desenvolvimento de <strong>produtos interativos</strong>.</p>
+              <p>Sou um <strong>profissional versátil</strong> com mais de <strong>10 anos de experiência</strong>, conhecimento e interesse sempre crescentes em <strong>design digital</strong>, <strong>desenvolvimento de software</strong> e <strong>artes visuais</strong>. Sou capaz de trabalhar nas várias etapas que envolvem a concepção e o desenvolvimento de <strong>produtos interativos</strong> como <strong>websites</strong>, <strong>aplicativos </strong> e <strong>jogos.</strong></p>
               <h2>Vamos nos conectar?</h2>
-              <p>Sinta-se livre para contactar-me por <strong><a href="mailto:acemirsm@gmail.com">email</a></strong> ou pela web.</p>
+              <p>Sinta-se livre para contactar-me por <strong><a href="mailto:acemirsm@gmail.com" title="Enviar um e-mail para: acemirsm@gmail.com">email</a></strong> ou pela web.</p>
               <ul class="social">
                 <!-- <li><a class="btn" href="mailto:acemirsm@gmail.com"><span class="symbol"><span class="ico">&#xe024;</span> <span>Envie-me um e-mail</span></span></a></li> -->
                 <li><a class="btn" href="//behance.net/acemir" target="_blank" title="Dê uma olhada no meu portfolio no Behance"><span class="symbol"><span class="ico">&#xe009;</span><span> Dê uma olhada no meu portfolio no <strong>Behance</strong></span></span></a></li>
@@ -264,7 +264,7 @@ lang: pt
           <div class="sec-section">
             <div class="sec-text">
               <header><h1>RECENTES</h1></header>
-              <a href="{{ post.url }}">
+              <a href="{{ post.url }}" title="Leia a postagem: {{ post.title }}">
                 <h2>{{ post.title }}</h2>
                 {% assign months = "Jan|Fev|Mar|Abr|Mai|Jun|Jul|Ago|Set|Out|Nov|Dez" | split: "|" %}
                 {% assign m = post.date | date: "%-m" | minus: 1 %}
