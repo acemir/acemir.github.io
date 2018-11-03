@@ -266,6 +266,11 @@ body {
 .menu-close {
   position: fixed;
   display: none;
+
+  a {
+    overflow: hidden;
+    text-indent: -9999px;
+  }
 }
 
 // .nav-social {
