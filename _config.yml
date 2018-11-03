@@ -27,7 +27,7 @@ feed:
   en: /feed-en.xml
   pt: /feed-pt.xml
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "//acemir.github.io" # the base hostname & protocol for your site
+url: "https://acemir.github.io" # the base hostname & protocol for your site
 twitter_username: acemir
 github_username:  acemir
 permalink: /:categories/:title/
