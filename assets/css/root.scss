@@ -540,7 +540,7 @@ article {
   .btn {
     display: block;
     font-weight: 700;
-    color: $buttn-color;
+    color: $darkr-color;
     // margin: .6em 0;
     text-shadow: none;
     transition: color .3s;
@@ -551,7 +551,7 @@ article {
 
     > span {
       display: inline-block;
-      border: .25em solid $buttn-color;
+      border: .25em solid $darkr-color;
       border-top-color: transparent;
       border-bottom-color: transparent;
       padding: .625em 1.5em;
@@ -1311,6 +1311,7 @@ figure {
 
 @font-face {
     font-family: 'Mono Social Icons Font';
+    font-display: auto;
     src: url('../fonts/MonoSocialIconsFont-1.10.eot');
     src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
          url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
@@ -1337,9 +1338,9 @@ figure {
 
 a.symbol {
   display: inline-block;
-  border: .25em solid $buttn-color;
+  border: .25em solid $darkr-color;
   border-radius: 50%;
-  color: $buttn-color;
+  color: $darkr-color;
   text-shadow: none;
   &:before {
     content: attr(title);
