@@ -1316,7 +1316,6 @@ figure {
 
 @font-face {
     font-family: 'Mono Social Icons Font';
-    font-display: auto;
     src: url('../fonts/MonoSocialIconsFont-1.10.eot');
     src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
          url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'),
@@ -1325,6 +1324,7 @@ figure {
     src: url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 .symbol, a.symbol:before {
