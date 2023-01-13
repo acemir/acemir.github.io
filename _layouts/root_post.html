@@ -17,10 +17,10 @@ layout:
     <nav class="nav-lang">
       <ul>
         {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-        {% for post in posts %}<li {% if page.url == post.url %}class="current"{% endif %}><a href="{{ post.url }}">{{ post.lang | upcase }}</a></li>{% endfor %}
+        {% for post in posts %}<li {% if page.url == post.url %}class="current"{% endif %}><a href="{{ post.url }}" title="{{ site.langname[post.lang] }}">{{ post.lang | upcase }}</a></li>{% endfor %}
 
         {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-        {% for node in pages %}<li {% if page.url == node.url %}class="current"{% endif %}><a href="{{ node.url }}" class="{{ node.lang }}">{{ node.lang | upcase }}</a></li>{% endfor %}
+        {% for node in pages %}<li {% if page.url == node.url %}class="current"{% endif %}><a href="{{ node.url }}" title="{{ site.langname[node.lang] }}">{{ node.lang | upcase }}</a></li>{% endfor %}
       </ul>
     </nav>
 
