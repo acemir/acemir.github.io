@@ -29,6 +29,16 @@ video {
   object-fit: cover;
 }
 
+.dodge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: white;
+  mix-blend-mode: overlay;
+}
+
 aside {
   position: absolute;
   top: 0;
@@ -38,6 +48,22 @@ aside {
   background: hsla(var(--hue, 0),100%,50%,1);
   mix-blend-mode: multiply;
 }
+
+.lens-white aside {
+  background: #fff;
+  mix-blend-mode: color;
+}
+
+/* .lens-white section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: hsl(0deg 0% 87.5%);
+  mix-blend-mode: color-dodge;
+} */
 
 main {
   position: absolute;
@@ -89,6 +115,10 @@ main label {
 
 #blue + label {
   --hue-label: 240;
+}
+
+#white + label {
+  background: #fff;
 }
 
 input:checked + label {
