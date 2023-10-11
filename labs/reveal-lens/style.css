@@ -54,6 +54,19 @@ aside {
   mix-blend-mode: color;
 }
 
+.lens-black aside {
+  background: #000;
+  mix-blend-mode: color-burn;
+}
+
+.lens-white video {
+  filter: grayscale(1) brightness(2) contrast(2);
+}
+
+.lens-black video {
+  filter: grayscale(1);
+}
+
 /* .lens-white section::after {
   content: '';
   position: absolute;
@@ -119,6 +132,10 @@ main label {
 
 #white + label {
   background: #fff;
+}
+
+#black + label {
+  background: #000;
 }
 
 input:checked + label {

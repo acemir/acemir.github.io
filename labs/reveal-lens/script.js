@@ -27,5 +27,6 @@ options.forEach(option => {
   option.addEventListener('click', e => {
     document.documentElement.style.setProperty('--hue', e.currentTarget.getAttribute('data-hue'))
     document.documentElement.classList.toggle('lens-white', e.currentTarget.id === 'white')
+    document.documentElement.classList.toggle('lens-black', e.currentTarget.id === 'black')
   })
 })
