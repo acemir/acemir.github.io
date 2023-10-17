@@ -42,5 +42,10 @@
     </ul>
   </main>
   <script  src="./script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js', { scope: '/labs/reveal-lens/' });
+    }
+  </script>
 </body>
 </html>
